@@ -1,6 +1,6 @@
 # CTET Prep App — Single Source of Truth
 
-Version: 1.20
+Version: 1.21
 LastUpdated: 2025-10-27
 
 Purpose
@@ -486,3 +486,8 @@ Lead developer: (TO-BE-FILLED)
 
 ---
 This document is authoritative. All designers, developers, and QA engineers must refer to it before implementing or approving new work.
+
+- 2025-10-27 — v1.21 — F-001 verification & CI tests: Verified Hindi converted artifact, added an automated manifest sanity check, and added an integration test to exercise converter+validator.
+  - Added `scripts/check-manifest.js` to verify converted files exist, question counts match, and IDs are unique across converted artifacts.
+  - Added a Vitest integration test `app/src/lib/__tests__/f001-convert-validate.test.ts` that runs the converter on a small fixture and validates the converted output.
+  - Updated `.github/workflows/validate-json.yml` to run the manifest sanity check as part of PR validation for `Docs/jsonData/**` changes. (Author: Automated assistant)

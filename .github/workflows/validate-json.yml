@@ -36,3 +36,8 @@ jobs:
             echo "--- Validating: $f"
             node ./scripts/validate-json.js "$f"
           done
+      - name: Manifest sanity check
+        run: |
+          set -e
+          echo "Running manifest sanity check"
+          node ./scripts/check-manifest.js

@@ -1,0 +1,14 @@
+[
+  {
+    "question": "यह एक परीक्षण प्रश्न है?",
+    "options": ["A", "B", "C", "D"],
+    "answerKey": "B",
+    "explanation": "संक्षिप्त व्याख्या।"
+  },
+  {
+    "question": "यह दूसरा परीक्षण प्रश्न है?",
+    "options": ["A", "B", "C", "D"],
+    "answerKey": "A",
+    "explanation": "दूसरे प्रश्न की व्याख्या।"
+  }
+]
