@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Login — CTET Prep Wireframe</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+  <link rel="icon" type="image/png" sizes="48x48" href="favicon-48.png">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="manifest" href="manifest.webmanifest">
+  <meta name="theme-color" content="#374151">
+</head>
+<body>
+  <header class="header">
+    <button class="hamburger" aria-label="Toggle navigation" aria-expanded="false">
+      <svg viewBox="0 0 24 24" width="18" height="18" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M3 6h18v2H3V6zm0 5h18v2H3v-2zm0 5h18v2H3v-2z"/></svg>
+    </button>
+    <div class="logo">CTET Prep</div>
+    <nav class="nav">
+      <a href="dashboard.html">Dashboard</a>
+      <a href="index.html">Home</a>
+    </nav>
+  </header>
+  <main class="container">
+    <section style="max-width:500px;margin:28px auto;background:#fff;padding:20px;border-radius:8px;border:1px solid #e6eef8">
+      <h2>Login or Create Account</h2>
+      <form action="#" onsubmit="alert('This is a prototype. Use the Dashboard link.');return false;">
+        <label>Email<br><input style="width:100%;padding:8px;margin-top:6px" type="email" required></label>
+        <label style="display:block;margin-top:12px">Password<br><input style="width:100%;padding:8px;margin-top:6px" type="password" required></label>
+        <div style="margin-top:12px">
+          <button class="btn" type="submit">Login</button>
+          <a class="btn outline" href="index.html">Cancel</a>
+          <a style="margin-left:8px;color:var(--muted);text-decoration:none" href="dashboard.html">Skip (Demo Dashboard)</a>
+        </div>
+      </form>
+    </section>
+  </main>
+  <footer class="footer">&copy; CTET Prep — Wireframe prototype</footer>
+  <script src="dataLoader.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

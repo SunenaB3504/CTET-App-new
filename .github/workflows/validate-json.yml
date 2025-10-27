@@ -1,0 +1,38 @@
+name: Validate JSON data
+
+on:
+  pull_request:
+    paths:
+      - 'Docs/jsonData/**'
+      - 'scripts/**'
+      - 'package.json'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Find and validate JSON files
+        run: |
+          set -e
+          files=$(git ls-files 'Docs/jsonData/**/*.json')
+          if [ -z "$files" ]; then
+            echo "No JSON files found in Docs/jsonData/"
+            exit 0
+          fi
+          echo "Found files:"
+          echo "$files"
+          for f in $files; do
+            echo "--- Validating: $f"
+            node ./scripts/validate-json.js "$f"
+          done

@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Dashboard — CTET Prep Wireframe</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+  <link rel="icon" type="image/png" sizes="48x48" href="favicon-48.png">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="manifest" href="manifest.webmanifest">
+  <meta name="theme-color" content="#374151">
+</head>
+<body>
+  <header class="header">
+    <button class="hamburger" aria-label="Toggle navigation" aria-expanded="false">
+      <svg viewBox="0 0 24 24" width="18" height="18" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M3 6h18v2H3V6zm0 5h18v2H3v-2zm0 5h18v2H3v-2z"/></svg>
+    </button>
+    <div class="logo">CTET Prep</div>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="study.html">Study</a>
+      <a href="questionbank.html">Question Bank</a>
+      <a href="mock_setup.html">Mock Tests</a>
+      <a class="cta" href="login.html">Account</a>
+    </nav>
+  </header>
+  <main class="container">
+    <section style="display:flex;gap:16px">
+      <aside style="width:260px;background:#fff;padding:16px;border-radius:8px;border:1px solid #eef2ff">
+        <h3>My Progress</h3>
+        <div>Selected Paper: <strong data-current-paper>Paper 2</strong></div>
+        <div style="margin-top:8px"><a href="#" data-open-paper-selector onclick="document.getElementById('paper-select-modal').style.display='flex';return false;">Change Paper</a></div>
+        <div style="margin-top:8px">Completion: <strong>12%</strong></div>
+        <div style="margin-top:8px">Next: Child Development — Chapter 3</div>
+        <div style="margin-top:12px"><a href="study.html">Continue Study</a></div>
+      </aside>
+      <section style="flex:1;background:#fff;padding:16px;border-radius:8px;border:1px solid #eef2ff">
+        <h2>Welcome — Demo Dashboard</h2>
+        <p>Your recent tests</p>
+        <div style="display:flex;gap:12px">
+          <div data-show-for-paper="Paper 1" style="flex:1;padding:12px;background:#fbfdff;border-radius:8px;border:1px solid #eef6ff">
+            <h4>Latest Test — Paper 1</h4>
+            <div>Score: 68% • Time: 40m</div>
+            <a href="results.html">View Details</a>
+          </div>
+          <div data-show-for-paper="Paper 2" style="flex:1;padding:12px;background:#fbfdff;border-radius:8px;border:1px solid #eef6ff">
+            <h4>Latest Test — Paper 2</h4>
+            <div>Score: 54% • Time: 45m</div>
+            <a href="results.html">View Details</a>
+          </div>
+          <div data-show-for-paper="any" style="flex:1;padding:12px;background:#fff;border-radius:8px;border:1px solid #eef6ff">
+            <h4>Recommendations</h4>
+            <ul style="margin:0;padding-left:18px"><li>Focus on Pedagogy</li><li>Practice Math basics</li></ul>
+          </div>
+        </div>
+      </section>
+    </section>
+  </main>
+  <section class="container" style="max-width:980px;margin-top:18px">
+    <div style="background:#fff;padding:16px;border-radius:8px;border:1px solid #eef2ff">
+      <h3>Questions for selected paper</h3>
+      <div id="paper-questions-summary" style="margin-bottom:12px">Loading...</div>
+      <div id="paper-questions-list" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px"></div>
+    </div>
+  </section>
+  <!-- Paper selection modal shown after login if user hasn't chosen a paper -->
+  <div id="paper-select-modal" style="display:none;position:fixed;inset:0;align-items:center;justify-content:center;background:rgba(0,0,0,0.5);">
+    <div style="background:#fff;padding:24px;border-radius:12px;max-width:520px;width:90%;text-align:center;">
+      <h3 style="margin-top:0;color:#1f2937">Select your target paper</h3>
+      <p style="color:#4b5563">Choose Paper 1 or Paper 2 to unlock study paths and mocks tailored to your exam.</p>
+      <div style="display:flex;gap:12px;justify-content:center;margin-top:16px">
+        <button class="btn" data-select-paper="Paper 1">Paper 1</button>
+        <button class="btn" data-select-paper="Paper 2">Paper 2</button>
+      </div>
+      <div style="margin-top:12px;color:var(--text-tertiary)"><a href="#" data-close-modal>Maybe later</a></div>
+    </div>
+  </div>
+  <footer class="footer">&copy; CTET Prep — Wireframe prototype</footer>
+
+  <!-- Prototype scripts -->
+  <script src="dataLoader.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

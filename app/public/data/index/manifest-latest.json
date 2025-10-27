@@ -1,0 +1,61 @@
+{
+  "generatedAt": "2025-10-26T07:39:27.897Z",
+  "files": [
+    {
+      "input": "Docs\\jsonData\\Paper2-Dec24\\CDP-Dec24-Extracted-Verified.json",
+      "output": "data\\converted\\Paper_2\\CDP-Dec24-Extracted-Verified.json",
+      "paper": "Paper 2",
+      "term": "December",
+      "year": 2024,
+      "subject": "Child Development & Pedagogy",
+      "language": "English",
+      "questionCount": 30,
+      "checksum": "fa61411452bc3cf8f6d0bac4bc76dab4cd623e58bdd95c707702193410b74665"
+    },
+    {
+      "input": "Docs\\jsonData\\Paper2-Dec24\\ENG-Dec24-Extracted-Verified.json",
+      "output": "data\\converted\\Paper_2\\ENG-Dec24-Extracted-Verified.json",
+      "paper": "Paper 2",
+      "term": "December",
+      "year": 2024,
+      "subject": "English",
+      "language": "English",
+      "questionCount": 30,
+      "checksum": "0f2ccfd8a069169204544a1a48646e0be71125bc0a5eda689e5aee281a5c14d7"
+    },
+    {
+      "input": "Docs\\jsonData\\Paper2-Dec24\\Hindi-Dec24-Extracted-Verified.json",
+      "output": "data\\converted\\Paper_2\\Hindi-Dec24-Extracted-Verified.json",
+      "paper": "Paper 2",
+      "term": "December",
+      "year": 2024,
+      "subject": "Hindi",
+      "language": "Hindi",
+      "questionCount": 30,
+      "checksum": "81aa5dac32baabc35c43e2cde33cdffffd8d9f99249dfed7369338c51900101b"
+    },
+    {
+      "input": "Docs\\jsonData\\Paper2-Dec24\\Maths-Dec24-Extracted-Verified.json",
+      "output": "data\\converted\\Paper_2\\Maths-Dec24-Extracted-Verified.json",
+      "paper": "Paper 2",
+      "term": "December",
+      "year": 2024,
+      "subject": "Mathematics",
+      "language": "English",
+      "questionCount": 60,
+      "checksum": "74b0a38019c67a86cf0260c551844c21961a88040d644546bd74467540564fe4"
+    },
+    {
+      "input": "Docs\\jsonData\\Paper2-Dec24\\SST-Dec24-Extracted-Verified.json",
+      "output": "data\\converted\\Paper_2\\SST-Dec24-Extracted-Verified.json",
+      "paper": "Paper 2",
+      "term": "December",
+      "year": 2024,
+      "subject": "Social Studies",
+      "language": "English",
+      "questionCount": 60,
+      "checksum": "24f60c4db8f7013674dceceb4b224d0f485e21f6e14e860ecfcf2b649cf18446"
+    }
+  ],
+  "questionIndex": {}
+}

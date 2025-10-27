@@ -1,0 +1,542 @@
+[
+  {
+    "questionNumber": 91,
+    "subject": "English",
+    "question": "Read the passage given below and answer the questions (91 - 99) that follow :\n\n1.\nColours have a deeper significance for a home than one can imagine. For if used right, they can give a perfect look. In today's time, when there is an abundance of everything but space, colour plays an important role in creating the right ambience and perhaps the space that you crave for. Besides having a tremendous potential to create mood through sheer appeal to the senses, right use of colours actually helps you create the spacious feeling.\n\n2.For instance, instead of using a plain monotonous colour on all four walls, if you get a little imaginative, perhaps a little bold, you can create a sense of space within those four walls. One of the ways would be to blend light and dark colours. Or to paint two opposite sides in a lighter shade than the other two. Colour can add height to your room too. For instance, if the room is painted white and the upholstery of your furniture is in deep blue tone, the false ceilings could be painted in a light blue shade. Think out of the box to give even more interesting effects to your room.\n3. Whatever your choice is, there are options in the market to help you realise your needs. These days you get special patterned stencils to decorate walls with interesting patterns like flowers, leaves, birds etc. Some people draw an entire scenery on one side of the wall to give the feeling of bringing the outdoors inside. The choices are many, so are the creative ways. Just let your imagination flow. Every room reflects the personality of the occupant, hence it is important to pay attention to every detail. Your walls are your canvases, freshly painted and all bare. Go ahead, splash colours and watch the effect unfold.\n----------------------------\nThe word opposite in meaning to the underlined word in the given sentence is: 'Right use of colours actually helps you create the spacious feeling'.",
+    "options": [
+      "special",
+      "cramped",
+      "airy",
+      "fresh"
+    ],
+    "correctAnswer": 1,
+    "pdfPage": 61,
+    "answerKeyPage": 9,
+    "status": "extracted",
+    "questionCorrect": false,
+    "answerCorrect": false,
+    "optionsCorrect": false
+  },
+  {
+    "questionNumber": 92,
+    "subject": "English",
+    "question": "Identify the parts of speech of the underlined words in the sentence given below :\n‘Right use of colours actually helps you create the spacious feeling’.",
+    "options": [
+      "conjunction, verb",
+      "adverb, noun",
+      "verb, adverb",
+      "preposition, verb"
+    ],
+    "correctAnswer": 1,
+    "pdfPage": 61,
+    "answerKeyPage": 9,
+    "status": "extracted",
+    "questionCorrect": false,
+    "answerCorrect": false,
+    "optionsCorrect": false
+  },
+  {
+    "questionNumber": 93,
+    "subject": "English",
+    "question": "As mentioned by the writer in para 2, some ways by which you can break the monotony of the room is:",
+    "options": [
+      "by blending light and dark shades",
+      "painting all the 4 walls in plain colours",
+      "both (1) and (2)",
+      "(1) is correct, but not (2)"
+    ],
+    "correctAnswer": 3,
+    "pdfPage": 61,
+    "answerKeyPage": 9,
+    "status": "extracted",
+    "questionCorrect": false,
+    "answerCorrect": false,
+    "optionsCorrect": false
+  },
+  {
+    "questionNumber": 94,
+    "subject": "English",
+    "question": "To think out of the box” does not mean to think :",
+    "options": [
+      "traditionally",
+      "creatively and imaginatively",
+      "about novel ideas",
+      "in unusual ways"
+    ],
+    "correctAnswer": 0,
+    "pdfPage": 62,
+    "answerKeyPage": 9,
+    "status": "extracted",
+    "questionCorrect": false,
+    "answerCorrect": false,
+    "optionsCorrect": false
+  },
+  {
+    "questionNumber": 95,
+    "subject": "English",
+    "question": "According to the writer, it is important to pay attention to the colour scheme of your home because :",
+    "options": [
+      "the monotonous shades add life to the rooms",
+      "the ambience created makes it look boring",
+      "it reflects the personality of the owner",
+      "the walls reveal the secrets of your life"
+    ],
+    "correctAnswer": 2,
+    "pdfPage": 62,
+    "answerKeyPage": 9,
+    "status": "extracted",
+    "questionCorrect": false,
+    "answerCorrect": false,
+    "optionsCorrect": false
+  },
+  {
+    "questionNumber": 96,
+    "subject": "English",
+    "question": "Read the following statements: \n(A) Colours if used creatively can give the perfect look to a room. \n(B) Space is abundant nowadays. \n(C) The right colour combination on walls and the roof creates a spacious feeling.",
+    "options": [
+      "(A) and (C) are incorrect, (B) is correct",
+      "(A) and (C) are correct, (B) is incorrect",
+      "(B) and (C) are correct, (A) is incorrect",
+      "(A), (B) and (C) are all correct"
+    ],
+    "correctAnswer": 1,
+    "pdfPage": 62,
+    "answerKeyPage": 9,
+    "status": "extracted",
+    "questionCorrect": false,
+    "answerCorrect": false,
+    "optionsCorrect": false
+  },
+  {
+    "questionNumber": 97,
+    "subject": "English",
+    "question": "Complete the given word analogy :\nmonotonous : dull :: ambience : ___________?",
+    "options": [
+      "weather",
+      "room",
+      "temperature",
+      "aura"
+    ],
+    "correctAnswer": 3,
+    "pdfPage": 62,
+    "answerKeyPage": 9,
+    "status": "extracted",
+    "questionCorrect": false,
+    "answerCorrect": false,
+    "optionsCorrect": false
+  },
+  {
+    "questionNumber": 98,
+    "subject": "English",
+    "question": "Some people draw colourful sceneries on their home walls to :",
+    "options": [
+      "blend dark and light colours",
+      "give a deeper significance to their home",
+      "bring nature into their homes",
+      "create a sense of space"
+    ],
+    "correctAnswer": 2,
+    "pdfPage": 62,
+    "answerKeyPage": 9,
+    "status": "extracted",
+    "questionCorrect": false,
+    "answerCorrect": false,
+    "optionsCorrect": false
+  },
+  {
+    "questionNumber": 99,
+    "subject": "English",
+    "question": "As mentioned by the writer in para 1, In today’s times, what is a modern day home owner longing\nfor ?",
+    "options": [
+      "Imagination",
+      "Colours",
+      "Space",
+      "Sheer appeal"
+    ],
+    "correctAnswer": 2,
+    "pdfPage": 62,
+    "answerKeyPage": 9,
+    "status": "extracted",
+    "questionCorrect": false,
+    "answerCorrect": false,
+    "optionsCorrect": false
+  },
+  {
+    "questionNumber": 100,
+    "subject": "English",
+    "question": "Read the poem given below and answer the questions (100 - 105) that follow :\n Between my finger and my thumb\n The squat pen rests: snug as a gun.\n Under my window, a clean rasping sound\n When the spade sings into gravelly ground.\n My father, digging, I look down\n Till his straining rump among the flowerbeds\n Bends low, comes up twenty years away\n Stooping in rhythm through potato drills,\n Where he was digging\n The coarse boot nestled on the lug, the shaft\n Against the inside knee was levered firmly.\n He rooted out tall tops, buried the bright edge deep.\n To scatter new potatoes that we picked,\n Loving their cool hardness in our hands.\n-----------------------------\n\nThe poetic devices in line 2 and line 4 are :",
+    "options": [
+      "metaphor and simile",
+      "metaphor and personification",
+      "hyperbole and metaphor",
+      "simile and alliteration"
+    ],
+    "correctAnswer": 3,
+    "pdfPage": 63,
+    "answerKeyPage": 9,
+    "status": "extracted",
+    "questionCorrect": false,
+    "answerCorrect": false,
+    "optionsCorrect": false
+  },
+  {
+    "questionNumber": 101,
+    "subject": "English",
+    "question": "What is the overall tone of the poem ?",
+    "options": [
+      "nostalgic and admiration",
+      "annoyance and anger",
+      "pitiful and sympathetic",
+      "disgust and animosity"
+    ],
+    "correctAnswer": 0,
+    "pdfPage": 63,
+    "answerKeyPage": 9,
+    "status": "extracted",
+    "questionCorrect": false,
+    "answerCorrect": false,
+    "optionsCorrect": false
+  },
+  {
+    "questionNumber": 102,
+    "subject": "English",
+    "question": "Complete the word analogy: coarse : rough :: snug: _____?",
+    "options": [
+      "comfortable",
+      "lazy",
+      "perfect",
+      "lethal"
+    ],
+    "correctAnswer": 0,
+    "pdfPage": 63,
+    "answerKeyPage": 9,
+    "status": "extracted",
+    "questionCorrect": false,
+    "answerCorrect": false,
+    "optionsCorrect": false
+  },
+  {
+    "questionNumber": 103,
+    "subject": "English",
+    "question": "How does the speaker's father feel about his son’s choice of career?",
+    "options": [
+      "He is ambivalent towards the choice.",
+      "The poem doesn’t make it clear.",
+      "He wishes his son had chosen a more practical path.",
+      "He's glad his son is not a farmer."
+    ],
+    "correctAnswer": 1,
+    "pdfPage": 63,
+    "answerKeyPage": 9,
+    "status": "extracted",
+    "questionCorrect": false,
+    "answerCorrect": false,
+    "optionsCorrect": false
+  },
+  {
+    "questionNumber": 104,
+    "subject": "English",
+    "question": "In the second stanza, the poet is observing :",
+    "options": [
+      "potato growers in the countryside",
+      "a gardener tending flower beds",
+      "his father digging potatoes",
+      "farmers in the fields"
+    ],
+    "correctAnswer": 2,
+    "pdfPage": 63,
+    "answerKeyPage": 9,
+    "status": "extracted",
+    "questionCorrect": false,
+    "answerCorrect": false,
+    "optionsCorrect": false
+  },
+  {
+    "questionNumber": 105,
+    "subject": "English",
+    "question": "“..... loving their cool hardness in our hands’. What is the speaker referring to the given line ?",
+    "options": [
+      "the potato drills",
+      "the gun",
+      "the handles of the spade",
+      "the potatoes"
+    ],
+    "correctAnswer": 3,
+    "pdfPage": 63,
+    "answerKeyPage": 9,
+    "status": "extracted",
+    "questionCorrect": false,
+    "answerCorrect": false,
+    "optionsCorrect": false
+  },
+  {
+    "questionNumber": 106,
+    "subject": "English",
+    "question": "‘Authenticity of materials’ refers to :",
+    "options": [
+      "materials which children bring from home.",
+      "materials written by the teacher for her class.",
+      "materials written or developed by people in authority.",
+      "materials written or developed in real life content."
+    ],
+    "correctAnswer": 3,
+    "pdfPage": 64,
+    "answerKeyPage": 9,
+    "status": "extracted",
+    "questionCorrect": false,
+    "answerCorrect": false,
+    "optionsCorrect": false
+  },
+  {
+    "questionNumber": 107,
+    "subject": "English",
+    "question": "Aparna, a learner of class V understands that listening involves listening to each sound, words, then sentences to get the meaning of the speech or an audio. Which approach/ strategy she believes\nin for learning to listen ?",
+    "options": [
+      "Itis neither top-down nor bottom-up approach",
+      "Top-down approach",
+      "Bottom-up approach",
+      "Both top-down and bottom-up approach"
+    ],
+    "correctAnswer": 2,
+    "pdfPage": 64,
+    "answerKeyPage": 9,
+    "status": "extracted",
+    "questionCorrect": false,
+    "answerCorrect": false,
+    "optionsCorrect": false
+  },
+  {
+    "questionNumber": 108,
+    "subject": "English",
+    "question": "What is ‘systemic competence’ in language learning?",
+    "options": [
+      "Understanding that all humans have a system of many languages.",
+      "Understanding and applying that language works as a system.",
+      "Understanding and applying that languages have a grammatical system.",
+      "Understanding that all languages have a common structural system."
+    ],
+    "correctAnswer": 1,
+    "pdfPage": 64,
+    "answerKeyPage": 9,
+    "status": "extracted",
+    "questionCorrect": false,
+    "answerCorrect": false,
+    "optionsCorrect": false
+  },
+  {
+    "questionNumber": 109,
+    "subject": "English",
+    "question": "Which language register does the following text represent? The Indian Constitution recognises every person as equal. This means that every individual in the country, including male and female, person from all castes, religions, tribes, educational and economic background are recognised as equal. This is not to say that inequity ceases to exist. It doesn’t. But at least, in democratic India, the principle of the equality of all persons is recognised.",
+    "options": [
+      "Scientific register",
+      "Politic register",
+      "Social Science register",
+      "Legal register"
+    ],
+    "correctAnswer": 2,
+    "pdfPage": 64,
+    "answerKeyPage": 9,
+    "status": "extracted",
+    "questionCorrect": false,
+    "answerCorrect": false,
+    "optionsCorrect": false
+  },
+  {
+    "questionNumber": 110,
+    "subject": "English",
+    "question": "A teacher of class VI does a warm-up activity to connect their previous knowledge and experience with the text they would read. She asks her learners to look at the illustrations of the reading text (the story) before she begins to teach the text. What does she want her learners to do?",
+    "options": [
+      "Make them understand the illustrations.",
+      "Visualize the story through the illustrations.",
+      "Appreciate the illustrations.",
+      "Make predictions about the reading text."
+    ],
+    "correctAnswer": 3,
+    "pdfPage": 64,
+    "answerKeyPage": 9,
+    "status": "extracted",
+    "questionCorrect": false,
+    "answerCorrect": false,
+    "optionsCorrect": false
+  },
+  {
+    "questionNumber": 111,
+    "subject": "English",
+    "question": "A continuous record of instances of learning by the learners is known as :",
+    "options": [
+      "Diagnostic test",
+      "Portfolio",
+      "Continuous Comprehensive Assessment",
+      "Proficiency assessment"
+    ],
+    "correctAnswer": 1,
+    "pdfPage": 64,
+    "answerKeyPage": 9,
+    "status": "extracted",
+    "questionCorrect": false,
+    "answerCorrect": false,
+    "optionsCorrect": false
+  },
+  {
+    "questionNumber": 112,
+    "subject": "English",
+    "question": "Which of the following are known as receptive skills ?",
+    "options": [
+      "Listening and reading",
+      "Listening and writing",
+      "Reading and speaking",
+      "Speaking and writing"
+    ],
+    "correctAnswer": 0,
+    "pdfPage": 64,
+    "answerKeyPage": 9,
+    "status": "extracted",
+    "questionCorrect": false,
+    "answerCorrect": false,
+    "optionsCorrect": false
+  },
+  {
+    "questionNumber": 113,
+    "subject": "English",
+    "question": "Many Indians who go abroad for jobs learn the language of the place. What is this motivation\nknown as ?",
+    "options": [
+      "Itis neither instrumental nor integrative motivation.",
+      "Both integrative and instrumental motivation.",
+      "Integrative motivation.",
+      "Instrumental motivation."
+    ],
+    "correctAnswer": 3,
+    "pdfPage": 65,
+    "answerKeyPage": 9,
+    "status": "extracted",
+    "questionCorrect": false,
+    "answerCorrect": false,
+    "optionsCorrect": false
+  },
+  {
+    "questionNumber": 114,
+    "subject": "English",
+    "question": "Which of the following language is NOT a classical language ?",
+    "options": [
+      "Hindi",
+      "Tamil",
+      "Sanskrit",
+      "Telugu"
+    ],
+    "correctAnswer": 0,
+    "pdfPage": 65,
+    "answerKeyPage": 9,
+    "status": "extracted",
+    "questionCorrect": false,
+    "answerCorrect": false,
+    "optionsCorrect": false
+  },
+  {
+    "questionNumber": 115,
+    "subject": "English",
+    "question": "Which of the following is NOT true of the National Education Policy (NEP) 2020 on the study of foreign languages ?",
+    "options": [
+      "French is one of the language recommended to be studied as an additional option.",
+      "Study of foreign languages as an additional option during the secondary stage.",
+      "Study of foreign languages included as one of the languages under the three language formula.",
+      "Foreign language does not include in the three languages studied under three language formula."
+    ],
+    "correctAnswer": 2,
+    "pdfPage": 65,
+    "answerKeyPage": 9,
+    "status": "extracted",
+    "questionCorrect": false,
+    "answerCorrect": false,
+    "optionsCorrect": false
+  },
+  {
+    "questionNumber": 116,
+    "subject": "English",
+    "question": "Which of the following refers to ‘Knowing about language’?",
+    "options": [
+      "Strategic competence",
+      "Declarative knowledge",
+      "Procedural knowledge",
+      "Grammatical knowledge"
+    ],
+    "correctAnswer": 1,
+    "pdfPage": 65,
+    "answerKeyPage": 9,
+    "status": "extracted",
+    "questionCorrect": false,
+    "answerCorrect": false,
+    "optionsCorrect": false
+  },
+  {
+    "questionNumber": 117,
+    "subject": "English",
+    "question": "A teacher of class VI develops the following task for a speaking activity.\nSpeak five sentences about desert and its climatic conditions.\nIs it a good task or not a good task ? Select from option your response and reason for the same.",
+    "options": [
+      "Itis nota good task because it lacks context as there is no input for speaking about desert and its conditions.",
+      "Itis a good task because the learners may have studied about desert in their geography class and will have inputs to speak.",
+      "Itis a good task because it makes the learner to talk about something i.e the desert.",
+      "Itis not a good task because some of the learners may not know about desert."
+    ],
+    "correctAnswer": 0,
+    "pdfPage": 65,
+    "answerKeyPage": 9,
+    "status": "extracted",
+    "questionCorrect": false,
+    "answerCorrect": false,
+    "optionsCorrect": false
+  },
+  {
+    "questionNumber": 118,
+    "subject": "English",
+    "question": "Which of the following statements is true of a dialect of a language?",
+    "options": [
+      "Sometimes different social groups may speak different dialects of the same language.",
+      "Dialects of a language vary from region to region.",
+      "Speakers of different dialects of one language can understand other dialect speakers.",
+      "A dialect is a bigger category and a language is a smaller category."
+    ],
+    "correctAnswer": 0,
+    "pdfPage": 65,
+    "answerKeyPage": 9,
+    "status": "extracted",
+    "questionCorrect": false,
+    "answerCorrect": false,
+    "optionsCorrect": false
+  },
+  {
+    "questionNumber": 119,
+    "subject": "English",
+    "question": "Which of the following tasks promotes integrated learning skills?",
+    "options": [
+      "Writing an article",
+      "Role play",
+      "Assignment",
+      "Project work"
+    ],
+    "correctAnswer": 3,
+    "pdfPage": 65,
+    "answerKeyPage": 9,
+    "status": "extracted",
+    "questionCorrect": false,
+    "answerCorrect": false,
+    "optionsCorrect": false
+  },
+  {
+    "questionNumber": 120,
+    "subject": "English",
+    "question": "What is the following strategy in the context of grammar teaching known as? Introducing language items in contexts, making learners notice the language items, enabling them to use them in real-life contexts, and drawing the attention of the learner to the form by discovering it.",
+    "options": [
+      "Consciousness Raising",
+      "Creating a Schema",
+      "Deductive method",
+      "Discovery methods"
+    ],
+    "correctAnswer": 0,
+    "pdfPage": 65,
+    "answerKeyPage": 9,
+    "status": "extracted",
+    "questionCorrect": false,
+    "answerCorrect": false,
+    "optionsCorrect": false
+  }
+]

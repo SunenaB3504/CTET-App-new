@@ -1,0 +1,15 @@
+{
+  "name": "CTET Prep — Prototype",
+  "short_name": "CTET Prep",
+  "start_url": "./dashboard.html",
+  "display": "standalone",
+  "background_color": "#f3f4f6",
+  "theme_color": "#374151",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "64x64",
+      "type": "image/svg+xml"
+    }
+  ]
+}

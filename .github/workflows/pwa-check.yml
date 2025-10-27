@@ -1,0 +1,27 @@
+name: PWA Quick Check
+
+on:
+  pull_request:
+  push:
+    branches: [ main ]
+
+jobs:
+  pwa-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Use Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+      - name: Install repo dependencies
+        run: |
+          cd app
+          npm ci
+      - name: Run fast unit tests
+        run: |
+          cd app
+          npm run test:fast
+      - name: Run PWA checks
+        run: node ./scripts/check-pwa.js
+        working-directory: ${{ github.workspace }}

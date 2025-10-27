@@ -1,0 +1,1322 @@
+{
+  "generatedAt": "2025-10-26T07:39:27.897Z",
+  "files": [
+    {
+      "input": "Docs\\jsonData\\Paper2-Dec24\\CDP-Dec24-Extracted-Verified.json",
+      "output": "data\\converted\\Paper_2\\CDP-Dec24-Extracted-Verified.json",
+      "paper": "Paper 2",
+      "term": "December",
+      "year": 2024,
+      "subject": "Child Development & Pedagogy",
+      "language": "English",
+      "questionCount": 30,
+      "checksum": "fa61411452bc3cf8f6d0bac4bc76dab4cd623e58bdd95c707702193410b74665"
+    },
+    {
+      "input": "Docs\\jsonData\\Paper2-Dec24\\ENG-Dec24-Extracted-Verified.json",
+      "output": "data\\converted\\Paper_2\\ENG-Dec24-Extracted-Verified.json",
+      "paper": "Paper 2",
+      "term": "December",
+      "year": 2024,
+      "subject": "English",
+      "language": "English",
+      "questionCount": 30,
+      "checksum": "0f2ccfd8a069169204544a1a48646e0be71125bc0a5eda689e5aee281a5c14d7"
+    },
+    {
+      "input": "Docs\\jsonData\\Paper2-Dec24\\Hindi-Dec24-Extracted-Verified.json",
+      "output": "data\\converted\\Paper_2\\Hindi-Dec24-Extracted-Verified.json",
+      "paper": "Paper 2",
+      "term": "December",
+      "year": 2024,
+      "subject": "Hindi",
+      "language": "Hindi",
+      "questionCount": 30,
+      "checksum": "81aa5dac32baabc35c43e2cde33cdffffd8d9f99249dfed7369338c51900101b"
+    },
+    {
+      "input": "Docs\\jsonData\\Paper2-Dec24\\Maths-Dec24-Extracted-Verified.json",
+      "output": "data\\converted\\Paper_2\\Maths-Dec24-Extracted-Verified.json",
+      "paper": "Paper 2",
+      "term": "December",
+      "year": 2024,
+      "subject": "Mathematics",
+      "language": "English",
+      "questionCount": 60,
+      "checksum": "74b0a38019c67a86cf0260c551844c21961a88040d644546bd74467540564fe4"
+    },
+    {
+      "input": "Docs\\jsonData\\Paper2-Dec24\\SST-Dec24-Extracted-Verified.json",
+      "output": "data\\converted\\Paper_2\\SST-Dec24-Extracted-Verified.json",
+      "paper": "Paper 2",
+      "term": "December",
+      "year": 2024,
+      "subject": "Social Studies",
+      "language": "English",
+      "questionCount": 60,
+      "checksum": "24f60c4db8f7013674dceceb4b224d0f485e21f6e14e860ecfcf2b649cf18446"
+    }
+  ],
+  "questionIndex": {
+    "CDP-Dec24-Extracted-Verified-Q1": [
+      {
+        "file": "data\\converted\\Paper_2\\CDP-Dec24-Extracted-Verified.json",
+        "checksum": "fa61411452bc3cf8f6d0bac4bc76dab4cd623e58bdd95c707702193410b74665"
+      }
+    ],
+    "CDP-Dec24-Extracted-Verified-Q2": [
+      {
+        "file": "data\\converted\\Paper_2\\CDP-Dec24-Extracted-Verified.json",
+        "checksum": "fa61411452bc3cf8f6d0bac4bc76dab4cd623e58bdd95c707702193410b74665"
+      }
+    ],
+    "CDP-Dec24-Extracted-Verified-Q3": [
+      {
+        "file": "data\\converted\\Paper_2\\CDP-Dec24-Extracted-Verified.json",
+        "checksum": "fa61411452bc3cf8f6d0bac4bc76dab4cd623e58bdd95c707702193410b74665"
+      }
+    ],
+    "CDP-Dec24-Extracted-Verified-Q4": [
+      {
+        "file": "data\\converted\\Paper_2\\CDP-Dec24-Extracted-Verified.json",
+        "checksum": "fa61411452bc3cf8f6d0bac4bc76dab4cd623e58bdd95c707702193410b74665"
+      }
+    ],
+    "CDP-Dec24-Extracted-Verified-Q5": [
+      {
+        "file": "data\\converted\\Paper_2\\CDP-Dec24-Extracted-Verified.json",
+        "checksum": "fa61411452bc3cf8f6d0bac4bc76dab4cd623e58bdd95c707702193410b74665"
+      }
+    ],
+    "CDP-Dec24-Extracted-Verified-Q6": [
+      {
+        "file": "data\\converted\\Paper_2\\CDP-Dec24-Extracted-Verified.json",
+        "checksum": "fa61411452bc3cf8f6d0bac4bc76dab4cd623e58bdd95c707702193410b74665"
+      }
+    ],
+    "CDP-Dec24-Extracted-Verified-Q7": [
+      {
+        "file": "data\\converted\\Paper_2\\CDP-Dec24-Extracted-Verified.json",
+        "checksum": "fa61411452bc3cf8f6d0bac4bc76dab4cd623e58bdd95c707702193410b74665"
+      }
+    ],
+    "CDP-Dec24-Extracted-Verified-Q8": [
+      {
+        "file": "data\\converted\\Paper_2\\CDP-Dec24-Extracted-Verified.json",
+        "checksum": "fa61411452bc3cf8f6d0bac4bc76dab4cd623e58bdd95c707702193410b74665"
+      }
+    ],
+    "CDP-Dec24-Extracted-Verified-Q9": [
+      {
+        "file": "data\\converted\\Paper_2\\CDP-Dec24-Extracted-Verified.json",
+        "checksum": "fa61411452bc3cf8f6d0bac4bc76dab4cd623e58bdd95c707702193410b74665"
+      }
+    ],
+    "CDP-Dec24-Extracted-Verified-Q10": [
+      {
+        "file": "data\\converted\\Paper_2\\CDP-Dec24-Extracted-Verified.json",
+        "checksum": "fa61411452bc3cf8f6d0bac4bc76dab4cd623e58bdd95c707702193410b74665"
+      }
+    ],
+    "CDP-Dec24-Extracted-Verified-Q11": [
+      {
+        "file": "data\\converted\\Paper_2\\CDP-Dec24-Extracted-Verified.json",
+        "checksum": "fa61411452bc3cf8f6d0bac4bc76dab4cd623e58bdd95c707702193410b74665"
+      }
+    ],
+    "CDP-Dec24-Extracted-Verified-Q12": [
+      {
+        "file": "data\\converted\\Paper_2\\CDP-Dec24-Extracted-Verified.json",
+        "checksum": "fa61411452bc3cf8f6d0bac4bc76dab4cd623e58bdd95c707702193410b74665"
+      }
+    ],
+    "CDP-Dec24-Extracted-Verified-Q13": [
+      {
+        "file": "data\\converted\\Paper_2\\CDP-Dec24-Extracted-Verified.json",
+        "checksum": "fa61411452bc3cf8f6d0bac4bc76dab4cd623e58bdd95c707702193410b74665"
+      }
+    ],
+    "CDP-Dec24-Extracted-Verified-Q14": [
+      {
+        "file": "data\\converted\\Paper_2\\CDP-Dec24-Extracted-Verified.json",
+        "checksum": "fa61411452bc3cf8f6d0bac4bc76dab4cd623e58bdd95c707702193410b74665"
+      }
+    ],
+    "CDP-Dec24-Extracted-Verified-Q15": [
+      {
+        "file": "data\\converted\\Paper_2\\CDP-Dec24-Extracted-Verified.json",
+        "checksum": "fa61411452bc3cf8f6d0bac4bc76dab4cd623e58bdd95c707702193410b74665"
+      }
+    ],
+    "CDP-Dec24-Extracted-Verified-Q16": [
+      {
+        "file": "data\\converted\\Paper_2\\CDP-Dec24-Extracted-Verified.json",
+        "checksum": "fa61411452bc3cf8f6d0bac4bc76dab4cd623e58bdd95c707702193410b74665"
+      }
+    ],
+    "CDP-Dec24-Extracted-Verified-Q17": [
+      {
+        "file": "data\\converted\\Paper_2\\CDP-Dec24-Extracted-Verified.json",
+        "checksum": "fa61411452bc3cf8f6d0bac4bc76dab4cd623e58bdd95c707702193410b74665"
+      }
+    ],
+    "CDP-Dec24-Extracted-Verified-Q18": [
+      {
+        "file": "data\\converted\\Paper_2\\CDP-Dec24-Extracted-Verified.json",
+        "checksum": "fa61411452bc3cf8f6d0bac4bc76dab4cd623e58bdd95c707702193410b74665"
+      }
+    ],
+    "CDP-Dec24-Extracted-Verified-Q19": [
+      {
+        "file": "data\\converted\\Paper_2\\CDP-Dec24-Extracted-Verified.json",
+        "checksum": "fa61411452bc3cf8f6d0bac4bc76dab4cd623e58bdd95c707702193410b74665"
+      }
+    ],
+    "CDP-Dec24-Extracted-Verified-Q20": [
+      {
+        "file": "data\\converted\\Paper_2\\CDP-Dec24-Extracted-Verified.json",
+        "checksum": "fa61411452bc3cf8f6d0bac4bc76dab4cd623e58bdd95c707702193410b74665"
+      }
+    ],
+    "CDP-Dec24-Extracted-Verified-Q21": [
+      {
+        "file": "data\\converted\\Paper_2\\CDP-Dec24-Extracted-Verified.json",
+        "checksum": "fa61411452bc3cf8f6d0bac4bc76dab4cd623e58bdd95c707702193410b74665"
+      }
+    ],
+    "CDP-Dec24-Extracted-Verified-Q22": [
+      {
+        "file": "data\\converted\\Paper_2\\CDP-Dec24-Extracted-Verified.json",
+        "checksum": "fa61411452bc3cf8f6d0bac4bc76dab4cd623e58bdd95c707702193410b74665"
+      }
+    ],
+    "CDP-Dec24-Extracted-Verified-Q23": [
+      {
+        "file": "data\\converted\\Paper_2\\CDP-Dec24-Extracted-Verified.json",
+        "checksum": "fa61411452bc3cf8f6d0bac4bc76dab4cd623e58bdd95c707702193410b74665"
+      }
+    ],
+    "CDP-Dec24-Extracted-Verified-Q24": [
+      {
+        "file": "data\\converted\\Paper_2\\CDP-Dec24-Extracted-Verified.json",
+        "checksum": "fa61411452bc3cf8f6d0bac4bc76dab4cd623e58bdd95c707702193410b74665"
+      }
+    ],
+    "CDP-Dec24-Extracted-Verified-Q25": [
+      {
+        "file": "data\\converted\\Paper_2\\CDP-Dec24-Extracted-Verified.json",
+        "checksum": "fa61411452bc3cf8f6d0bac4bc76dab4cd623e58bdd95c707702193410b74665"
+      }
+    ],
+    "CDP-Dec24-Extracted-Verified-Q26": [
+      {
+        "file": "data\\converted\\Paper_2\\CDP-Dec24-Extracted-Verified.json",
+        "checksum": "fa61411452bc3cf8f6d0bac4bc76dab4cd623e58bdd95c707702193410b74665"
+      }
+    ],
+    "CDP-Dec24-Extracted-Verified-Q27": [
+      {
+        "file": "data\\converted\\Paper_2\\CDP-Dec24-Extracted-Verified.json",
+        "checksum": "fa61411452bc3cf8f6d0bac4bc76dab4cd623e58bdd95c707702193410b74665"
+      }
+    ],
+    "CDP-Dec24-Extracted-Verified-Q28": [
+      {
+        "file": "data\\converted\\Paper_2\\CDP-Dec24-Extracted-Verified.json",
+        "checksum": "fa61411452bc3cf8f6d0bac4bc76dab4cd623e58bdd95c707702193410b74665"
+      }
+    ],
+    "CDP-Dec24-Extracted-Verified-Q29": [
+      {
+        "file": "data\\converted\\Paper_2\\CDP-Dec24-Extracted-Verified.json",
+        "checksum": "fa61411452bc3cf8f6d0bac4bc76dab4cd623e58bdd95c707702193410b74665"
+      }
+    ],
+    "CDP-Dec24-Extracted-Verified-Q30": [
+      {
+        "file": "data\\converted\\Paper_2\\CDP-Dec24-Extracted-Verified.json",
+        "checksum": "fa61411452bc3cf8f6d0bac4bc76dab4cd623e58bdd95c707702193410b74665"
+      }
+    ],
+    "ENG-Dec24-Extracted-Verified-Q91": [
+      {
+        "file": "data\\converted\\Paper_2\\ENG-Dec24-Extracted-Verified.json",
+        "checksum": "0f2ccfd8a069169204544a1a48646e0be71125bc0a5eda689e5aee281a5c14d7"
+      }
+    ],
+    "ENG-Dec24-Extracted-Verified-Q92": [
+      {
+        "file": "data\\converted\\Paper_2\\ENG-Dec24-Extracted-Verified.json",
+        "checksum": "0f2ccfd8a069169204544a1a48646e0be71125bc0a5eda689e5aee281a5c14d7"
+      }
+    ],
+    "ENG-Dec24-Extracted-Verified-Q93": [
+      {
+        "file": "data\\converted\\Paper_2\\ENG-Dec24-Extracted-Verified.json",
+        "checksum": "0f2ccfd8a069169204544a1a48646e0be71125bc0a5eda689e5aee281a5c14d7"
+      }
+    ],
+    "ENG-Dec24-Extracted-Verified-Q94": [
+      {
+        "file": "data\\converted\\Paper_2\\ENG-Dec24-Extracted-Verified.json",
+        "checksum": "0f2ccfd8a069169204544a1a48646e0be71125bc0a5eda689e5aee281a5c14d7"
+      }
+    ],
+    "ENG-Dec24-Extracted-Verified-Q95": [
+      {
+        "file": "data\\converted\\Paper_2\\ENG-Dec24-Extracted-Verified.json",
+        "checksum": "0f2ccfd8a069169204544a1a48646e0be71125bc0a5eda689e5aee281a5c14d7"
+      }
+    ],
+    "ENG-Dec24-Extracted-Verified-Q96": [
+      {
+        "file": "data\\converted\\Paper_2\\ENG-Dec24-Extracted-Verified.json",
+        "checksum": "0f2ccfd8a069169204544a1a48646e0be71125bc0a5eda689e5aee281a5c14d7"
+      }
+    ],
+    "ENG-Dec24-Extracted-Verified-Q97": [
+      {
+        "file": "data\\converted\\Paper_2\\ENG-Dec24-Extracted-Verified.json",
+        "checksum": "0f2ccfd8a069169204544a1a48646e0be71125bc0a5eda689e5aee281a5c14d7"
+      }
+    ],
+    "ENG-Dec24-Extracted-Verified-Q98": [
+      {
+        "file": "data\\converted\\Paper_2\\ENG-Dec24-Extracted-Verified.json",
+        "checksum": "0f2ccfd8a069169204544a1a48646e0be71125bc0a5eda689e5aee281a5c14d7"
+      }
+    ],
+    "ENG-Dec24-Extracted-Verified-Q99": [
+      {
+        "file": "data\\converted\\Paper_2\\ENG-Dec24-Extracted-Verified.json",
+        "checksum": "0f2ccfd8a069169204544a1a48646e0be71125bc0a5eda689e5aee281a5c14d7"
+      }
+    ],
+    "ENG-Dec24-Extracted-Verified-Q100": [
+      {
+        "file": "data\\converted\\Paper_2\\ENG-Dec24-Extracted-Verified.json",
+        "checksum": "0f2ccfd8a069169204544a1a48646e0be71125bc0a5eda689e5aee281a5c14d7"
+      }
+    ],
+    "ENG-Dec24-Extracted-Verified-Q101": [
+      {
+        "file": "data\\converted\\Paper_2\\ENG-Dec24-Extracted-Verified.json",
+        "checksum": "0f2ccfd8a069169204544a1a48646e0be71125bc0a5eda689e5aee281a5c14d7"
+      }
+    ],
+    "ENG-Dec24-Extracted-Verified-Q102": [
+      {
+        "file": "data\\converted\\Paper_2\\ENG-Dec24-Extracted-Verified.json",
+        "checksum": "0f2ccfd8a069169204544a1a48646e0be71125bc0a5eda689e5aee281a5c14d7"
+      }
+    ],
+    "ENG-Dec24-Extracted-Verified-Q103": [
+      {
+        "file": "data\\converted\\Paper_2\\ENG-Dec24-Extracted-Verified.json",
+        "checksum": "0f2ccfd8a069169204544a1a48646e0be71125bc0a5eda689e5aee281a5c14d7"
+      }
+    ],
+    "ENG-Dec24-Extracted-Verified-Q104": [
+      {
+        "file": "data\\converted\\Paper_2\\ENG-Dec24-Extracted-Verified.json",
+        "checksum": "0f2ccfd8a069169204544a1a48646e0be71125bc0a5eda689e5aee281a5c14d7"
+      }
+    ],
+    "ENG-Dec24-Extracted-Verified-Q105": [
+      {
+        "file": "data\\converted\\Paper_2\\ENG-Dec24-Extracted-Verified.json",
+        "checksum": "0f2ccfd8a069169204544a1a48646e0be71125bc0a5eda689e5aee281a5c14d7"
+      }
+    ],
+    "ENG-Dec24-Extracted-Verified-Q106": [
+      {
+        "file": "data\\converted\\Paper_2\\ENG-Dec24-Extracted-Verified.json",
+        "checksum": "0f2ccfd8a069169204544a1a48646e0be71125bc0a5eda689e5aee281a5c14d7"
+      }
+    ],
+    "ENG-Dec24-Extracted-Verified-Q107": [
+      {
+        "file": "data\\converted\\Paper_2\\ENG-Dec24-Extracted-Verified.json",
+        "checksum": "0f2ccfd8a069169204544a1a48646e0be71125bc0a5eda689e5aee281a5c14d7"
+      }
+    ],
+    "ENG-Dec24-Extracted-Verified-Q108": [
+      {
+        "file": "data\\converted\\Paper_2\\ENG-Dec24-Extracted-Verified.json",
+        "checksum": "0f2ccfd8a069169204544a1a48646e0be71125bc0a5eda689e5aee281a5c14d7"
+      }
+    ],
+    "ENG-Dec24-Extracted-Verified-Q109": [
+      {
+        "file": "data\\converted\\Paper_2\\ENG-Dec24-Extracted-Verified.json",
+        "checksum": "0f2ccfd8a069169204544a1a48646e0be71125bc0a5eda689e5aee281a5c14d7"
+      }
+    ],
+    "ENG-Dec24-Extracted-Verified-Q110": [
+      {
+        "file": "data\\converted\\Paper_2\\ENG-Dec24-Extracted-Verified.json",
+        "checksum": "0f2ccfd8a069169204544a1a48646e0be71125bc0a5eda689e5aee281a5c14d7"
+      }
+    ],
+    "ENG-Dec24-Extracted-Verified-Q111": [
+      {
+        "file": "data\\converted\\Paper_2\\ENG-Dec24-Extracted-Verified.json",
+        "checksum": "0f2ccfd8a069169204544a1a48646e0be71125bc0a5eda689e5aee281a5c14d7"
+      }
+    ],
+    "ENG-Dec24-Extracted-Verified-Q112": [
+      {
+        "file": "data\\converted\\Paper_2\\ENG-Dec24-Extracted-Verified.json",
+        "checksum": "0f2ccfd8a069169204544a1a48646e0be71125bc0a5eda689e5aee281a5c14d7"
+      }
+    ],
+    "ENG-Dec24-Extracted-Verified-Q113": [
+      {
+        "file": "data\\converted\\Paper_2\\ENG-Dec24-Extracted-Verified.json",
+        "checksum": "0f2ccfd8a069169204544a1a48646e0be71125bc0a5eda689e5aee281a5c14d7"
+      }
+    ],
+    "ENG-Dec24-Extracted-Verified-Q114": [
+      {
+        "file": "data\\converted\\Paper_2\\ENG-Dec24-Extracted-Verified.json",
+        "checksum": "0f2ccfd8a069169204544a1a48646e0be71125bc0a5eda689e5aee281a5c14d7"
+      }
+    ],
+    "ENG-Dec24-Extracted-Verified-Q115": [
+      {
+        "file": "data\\converted\\Paper_2\\ENG-Dec24-Extracted-Verified.json",
+        "checksum": "0f2ccfd8a069169204544a1a48646e0be71125bc0a5eda689e5aee281a5c14d7"
+      }
+    ],
+    "ENG-Dec24-Extracted-Verified-Q116": [
+      {
+        "file": "data\\converted\\Paper_2\\ENG-Dec24-Extracted-Verified.json",
+        "checksum": "0f2ccfd8a069169204544a1a48646e0be71125bc0a5eda689e5aee281a5c14d7"
+      }
+    ],
+    "ENG-Dec24-Extracted-Verified-Q117": [
+      {
+        "file": "data\\converted\\Paper_2\\ENG-Dec24-Extracted-Verified.json",
+        "checksum": "0f2ccfd8a069169204544a1a48646e0be71125bc0a5eda689e5aee281a5c14d7"
+      }
+    ],
+    "ENG-Dec24-Extracted-Verified-Q118": [
+      {
+        "file": "data\\converted\\Paper_2\\ENG-Dec24-Extracted-Verified.json",
+        "checksum": "0f2ccfd8a069169204544a1a48646e0be71125bc0a5eda689e5aee281a5c14d7"
+      }
+    ],
+    "ENG-Dec24-Extracted-Verified-Q119": [
+      {
+        "file": "data\\converted\\Paper_2\\ENG-Dec24-Extracted-Verified.json",
+        "checksum": "0f2ccfd8a069169204544a1a48646e0be71125bc0a5eda689e5aee281a5c14d7"
+      }
+    ],
+    "ENG-Dec24-Extracted-Verified-Q120": [
+      {
+        "file": "data\\converted\\Paper_2\\ENG-Dec24-Extracted-Verified.json",
+        "checksum": "0f2ccfd8a069169204544a1a48646e0be71125bc0a5eda689e5aee281a5c14d7"
+      }
+    ],
+    "Hindi-Dec24-Extracted-Verified-Q121": [
+      {
+        "file": "data\\converted\\Paper_2\\Hindi-Dec24-Extracted-Verified.json",
+        "checksum": "81aa5dac32baabc35c43e2cde33cdffffd8d9f99249dfed7369338c51900101b"
+      }
+    ],
+    "Hindi-Dec24-Extracted-Verified-Q122": [
+      {
+        "file": "data\\converted\\Paper_2\\Hindi-Dec24-Extracted-Verified.json",
+        "checksum": "81aa5dac32baabc35c43e2cde33cdffffd8d9f99249dfed7369338c51900101b"
+      }
+    ],
+    "Hindi-Dec24-Extracted-Verified-Q123": [
+      {
+        "file": "data\\converted\\Paper_2\\Hindi-Dec24-Extracted-Verified.json",
+        "checksum": "81aa5dac32baabc35c43e2cde33cdffffd8d9f99249dfed7369338c51900101b"
+      }
+    ],
+    "Hindi-Dec24-Extracted-Verified-Q124": [
+      {
+        "file": "data\\converted\\Paper_2\\Hindi-Dec24-Extracted-Verified.json",
+        "checksum": "81aa5dac32baabc35c43e2cde33cdffffd8d9f99249dfed7369338c51900101b"
+      }
+    ],
+    "Hindi-Dec24-Extracted-Verified-Q125": [
+      {
+        "file": "data\\converted\\Paper_2\\Hindi-Dec24-Extracted-Verified.json",
+        "checksum": "81aa5dac32baabc35c43e2cde33cdffffd8d9f99249dfed7369338c51900101b"
+      }
+    ],
+    "Hindi-Dec24-Extracted-Verified-Q126": [
+      {
+        "file": "data\\converted\\Paper_2\\Hindi-Dec24-Extracted-Verified.json",
+        "checksum": "81aa5dac32baabc35c43e2cde33cdffffd8d9f99249dfed7369338c51900101b"
+      }
+    ],
+    "Hindi-Dec24-Extracted-Verified-Q127": [
+      {
+        "file": "data\\converted\\Paper_2\\Hindi-Dec24-Extracted-Verified.json",
+        "checksum": "81aa5dac32baabc35c43e2cde33cdffffd8d9f99249dfed7369338c51900101b"
+      }
+    ],
+    "Hindi-Dec24-Extracted-Verified-Q128": [
+      {
+        "file": "data\\converted\\Paper_2\\Hindi-Dec24-Extracted-Verified.json",
+        "checksum": "81aa5dac32baabc35c43e2cde33cdffffd8d9f99249dfed7369338c51900101b"
+      }
+    ],
+    "Hindi-Dec24-Extracted-Verified-Q129": [
+      {
+        "file": "data\\converted\\Paper_2\\Hindi-Dec24-Extracted-Verified.json",
+        "checksum": "81aa5dac32baabc35c43e2cde33cdffffd8d9f99249dfed7369338c51900101b"
+      }
+    ],
+    "Hindi-Dec24-Extracted-Verified-Q130": [
+      {
+        "file": "data\\converted\\Paper_2\\Hindi-Dec24-Extracted-Verified.json",
+        "checksum": "81aa5dac32baabc35c43e2cde33cdffffd8d9f99249dfed7369338c51900101b"
+      }
+    ],
+    "Hindi-Dec24-Extracted-Verified-Q131": [
+      {
+        "file": "data\\converted\\Paper_2\\Hindi-Dec24-Extracted-Verified.json",
+        "checksum": "81aa5dac32baabc35c43e2cde33cdffffd8d9f99249dfed7369338c51900101b"
+      }
+    ],
+    "Hindi-Dec24-Extracted-Verified-Q132": [
+      {
+        "file": "data\\converted\\Paper_2\\Hindi-Dec24-Extracted-Verified.json",
+        "checksum": "81aa5dac32baabc35c43e2cde33cdffffd8d9f99249dfed7369338c51900101b"
+      }
+    ],
+    "Hindi-Dec24-Extracted-Verified-Q133": [
+      {
+        "file": "data\\converted\\Paper_2\\Hindi-Dec24-Extracted-Verified.json",
+        "checksum": "81aa5dac32baabc35c43e2cde33cdffffd8d9f99249dfed7369338c51900101b"
+      }
+    ],
+    "Hindi-Dec24-Extracted-Verified-Q134": [
+      {
+        "file": "data\\converted\\Paper_2\\Hindi-Dec24-Extracted-Verified.json",
+        "checksum": "81aa5dac32baabc35c43e2cde33cdffffd8d9f99249dfed7369338c51900101b"
+      }
+    ],
+    "Hindi-Dec24-Extracted-Verified-Q135": [
+      {
+        "file": "data\\converted\\Paper_2\\Hindi-Dec24-Extracted-Verified.json",
+        "checksum": "81aa5dac32baabc35c43e2cde33cdffffd8d9f99249dfed7369338c51900101b"
+      }
+    ],
+    "Hindi-Dec24-Extracted-Verified-Q136": [
+      {
+        "file": "data\\converted\\Paper_2\\Hindi-Dec24-Extracted-Verified.json",
+        "checksum": "81aa5dac32baabc35c43e2cde33cdffffd8d9f99249dfed7369338c51900101b"
+      }
+    ],
+    "Hindi-Dec24-Extracted-Verified-Q137": [
+      {
+        "file": "data\\converted\\Paper_2\\Hindi-Dec24-Extracted-Verified.json",
+        "checksum": "81aa5dac32baabc35c43e2cde33cdffffd8d9f99249dfed7369338c51900101b"
+      }
+    ],
+    "Hindi-Dec24-Extracted-Verified-Q138": [
+      {
+        "file": "data\\converted\\Paper_2\\Hindi-Dec24-Extracted-Verified.json",
+        "checksum": "81aa5dac32baabc35c43e2cde33cdffffd8d9f99249dfed7369338c51900101b"
+      }
+    ],
+    "Hindi-Dec24-Extracted-Verified-Q139": [
+      {
+        "file": "data\\converted\\Paper_2\\Hindi-Dec24-Extracted-Verified.json",
+        "checksum": "81aa5dac32baabc35c43e2cde33cdffffd8d9f99249dfed7369338c51900101b"
+      }
+    ],
+    "Hindi-Dec24-Extracted-Verified-Q140": [
+      {
+        "file": "data\\converted\\Paper_2\\Hindi-Dec24-Extracted-Verified.json",
+        "checksum": "81aa5dac32baabc35c43e2cde33cdffffd8d9f99249dfed7369338c51900101b"
+      }
+    ],
+    "Hindi-Dec24-Extracted-Verified-Q141": [
+      {
+        "file": "data\\converted\\Paper_2\\Hindi-Dec24-Extracted-Verified.json",
+        "checksum": "81aa5dac32baabc35c43e2cde33cdffffd8d9f99249dfed7369338c51900101b"
+      }
+    ],
+    "Hindi-Dec24-Extracted-Verified-Q142": [
+      {
+        "file": "data\\converted\\Paper_2\\Hindi-Dec24-Extracted-Verified.json",
+        "checksum": "81aa5dac32baabc35c43e2cde33cdffffd8d9f99249dfed7369338c51900101b"
+      }
+    ],
+    "Hindi-Dec24-Extracted-Verified-Q143": [
+      {
+        "file": "data\\converted\\Paper_2\\Hindi-Dec24-Extracted-Verified.json",
+        "checksum": "81aa5dac32baabc35c43e2cde33cdffffd8d9f99249dfed7369338c51900101b"
+      }
+    ],
+    "Hindi-Dec24-Extracted-Verified-Q144": [
+      {
+        "file": "data\\converted\\Paper_2\\Hindi-Dec24-Extracted-Verified.json",
+        "checksum": "81aa5dac32baabc35c43e2cde33cdffffd8d9f99249dfed7369338c51900101b"
+      }
+    ],
+    "Hindi-Dec24-Extracted-Verified-Q145": [
+      {
+        "file": "data\\converted\\Paper_2\\Hindi-Dec24-Extracted-Verified.json",
+        "checksum": "81aa5dac32baabc35c43e2cde33cdffffd8d9f99249dfed7369338c51900101b"
+      }
+    ],
+    "Hindi-Dec24-Extracted-Verified-Q146": [
+      {
+        "file": "data\\converted\\Paper_2\\Hindi-Dec24-Extracted-Verified.json",
+        "checksum": "81aa5dac32baabc35c43e2cde33cdffffd8d9f99249dfed7369338c51900101b"
+      }
+    ],
+    "Hindi-Dec24-Extracted-Verified-Q147": [
+      {
+        "file": "data\\converted\\Paper_2\\Hindi-Dec24-Extracted-Verified.json",
+        "checksum": "81aa5dac32baabc35c43e2cde33cdffffd8d9f99249dfed7369338c51900101b"
+      }
+    ],
+    "Hindi-Dec24-Extracted-Verified-Q148": [
+      {
+        "file": "data\\converted\\Paper_2\\Hindi-Dec24-Extracted-Verified.json",
+        "checksum": "81aa5dac32baabc35c43e2cde33cdffffd8d9f99249dfed7369338c51900101b"
+      }
+    ],
+    "Hindi-Dec24-Extracted-Verified-Q149": [
+      {
+        "file": "data\\converted\\Paper_2\\Hindi-Dec24-Extracted-Verified.json",
+        "checksum": "81aa5dac32baabc35c43e2cde33cdffffd8d9f99249dfed7369338c51900101b"
+      }
+    ],
+    "Hindi-Dec24-Extracted-Verified-Q150": [
+      {
+        "file": "data\\converted\\Paper_2\\Hindi-Dec24-Extracted-Verified.json",
+        "checksum": "81aa5dac32baabc35c43e2cde33cdffffd8d9f99249dfed7369338c51900101b"
+      }
+    ],
+    "Maths-Dec24-Extracted-Verified-Q31": [
+      {
+        "file": "data\\converted\\Paper_2\\Maths-Dec24-Extracted-Verified.json",
+        "checksum": "74b0a38019c67a86cf0260c551844c21961a88040d644546bd74467540564fe4"
+      }
+    ],
+    "Maths-Dec24-Extracted-Verified-Q32": [
+      {
+        "file": "data\\converted\\Paper_2\\Maths-Dec24-Extracted-Verified.json",
+        "checksum": "74b0a38019c67a86cf0260c551844c21961a88040d644546bd74467540564fe4"
+      }
+    ],
+    "Maths-Dec24-Extracted-Verified-Q33": [
+      {
+        "file": "data\\converted\\Paper_2\\Maths-Dec24-Extracted-Verified.json",
+        "checksum": "74b0a38019c67a86cf0260c551844c21961a88040d644546bd74467540564fe4"
+      }
+    ],
+    "Maths-Dec24-Extracted-Verified-Q34": [
+      {
+        "file": "data\\converted\\Paper_2\\Maths-Dec24-Extracted-Verified.json",
+        "checksum": "74b0a38019c67a86cf0260c551844c21961a88040d644546bd74467540564fe4"
+      }
+    ],
+    "Maths-Dec24-Extracted-Verified-Q35": [
+      {
+        "file": "data\\converted\\Paper_2\\Maths-Dec24-Extracted-Verified.json",
+        "checksum": "74b0a38019c67a86cf0260c551844c21961a88040d644546bd74467540564fe4"
+      }
+    ],
+    "Maths-Dec24-Extracted-Verified-Q36": [
+      {
+        "file": "data\\converted\\Paper_2\\Maths-Dec24-Extracted-Verified.json",
+        "checksum": "74b0a38019c67a86cf0260c551844c21961a88040d644546bd74467540564fe4"
+      }
+    ],
+    "Maths-Dec24-Extracted-Verified-Q37": [
+      {
+        "file": "data\\converted\\Paper_2\\Maths-Dec24-Extracted-Verified.json",
+        "checksum": "74b0a38019c67a86cf0260c551844c21961a88040d644546bd74467540564fe4"
+      }
+    ],
+    "Maths-Dec24-Extracted-Verified-Q38": [
+      {
+        "file": "data\\converted\\Paper_2\\Maths-Dec24-Extracted-Verified.json",
+        "checksum": "74b0a38019c67a86cf0260c551844c21961a88040d644546bd74467540564fe4"
+      }
+    ],
+    "Maths-Dec24-Extracted-Verified-Q39": [
+      {
+        "file": "data\\converted\\Paper_2\\Maths-Dec24-Extracted-Verified.json",
+        "checksum": "74b0a38019c67a86cf0260c551844c21961a88040d644546bd74467540564fe4"
+      }
+    ],
+    "Maths-Dec24-Extracted-Verified-Q40": [
+      {
+        "file": "data\\converted\\Paper_2\\Maths-Dec24-Extracted-Verified.json",
+        "checksum": "74b0a38019c67a86cf0260c551844c21961a88040d644546bd74467540564fe4"
+      }
+    ],
+    "Maths-Dec24-Extracted-Verified-Q41": [
+      {
+        "file": "data\\converted\\Paper_2\\Maths-Dec24-Extracted-Verified.json",
+        "checksum": "74b0a38019c67a86cf0260c551844c21961a88040d644546bd74467540564fe4"
+      }
+    ],
+    "Maths-Dec24-Extracted-Verified-Q42": [
+      {
+        "file": "data\\converted\\Paper_2\\Maths-Dec24-Extracted-Verified.json",
+        "checksum": "74b0a38019c67a86cf0260c551844c21961a88040d644546bd74467540564fe4"
+      }
+    ],
+    "Maths-Dec24-Extracted-Verified-Q43": [
+      {
+        "file": "data\\converted\\Paper_2\\Maths-Dec24-Extracted-Verified.json",
+        "checksum": "74b0a38019c67a86cf0260c551844c21961a88040d644546bd74467540564fe4"
+      }
+    ],
+    "Maths-Dec24-Extracted-Verified-Q44": [
+      {
+        "file": "data\\converted\\Paper_2\\Maths-Dec24-Extracted-Verified.json",
+        "checksum": "74b0a38019c67a86cf0260c551844c21961a88040d644546bd74467540564fe4"
+      }
+    ],
+    "Maths-Dec24-Extracted-Verified-Q45": [
+      {
+        "file": "data\\converted\\Paper_2\\Maths-Dec24-Extracted-Verified.json",
+        "checksum": "74b0a38019c67a86cf0260c551844c21961a88040d644546bd74467540564fe4"
+      }
+    ],
+    "Maths-Dec24-Extracted-Verified-Q46": [
+      {
+        "file": "data\\converted\\Paper_2\\Maths-Dec24-Extracted-Verified.json",
+        "checksum": "74b0a38019c67a86cf0260c551844c21961a88040d644546bd74467540564fe4"
+      }
+    ],
+    "Maths-Dec24-Extracted-Verified-Q47": [
+      {
+        "file": "data\\converted\\Paper_2\\Maths-Dec24-Extracted-Verified.json",
+        "checksum": "74b0a38019c67a86cf0260c551844c21961a88040d644546bd74467540564fe4"
+      }
+    ],
+    "Maths-Dec24-Extracted-Verified-Q48": [
+      {
+        "file": "data\\converted\\Paper_2\\Maths-Dec24-Extracted-Verified.json",
+        "checksum": "74b0a38019c67a86cf0260c551844c21961a88040d644546bd74467540564fe4"
+      }
+    ],
+    "Maths-Dec24-Extracted-Verified-Q49": [
+      {
+        "file": "data\\converted\\Paper_2\\Maths-Dec24-Extracted-Verified.json",
+        "checksum": "74b0a38019c67a86cf0260c551844c21961a88040d644546bd74467540564fe4"
+      }
+    ],
+    "Maths-Dec24-Extracted-Verified-Q50": [
+      {
+        "file": "data\\converted\\Paper_2\\Maths-Dec24-Extracted-Verified.json",
+        "checksum": "74b0a38019c67a86cf0260c551844c21961a88040d644546bd74467540564fe4"
+      }
+    ],
+    "Maths-Dec24-Extracted-Verified-Q51": [
+      {
+        "file": "data\\converted\\Paper_2\\Maths-Dec24-Extracted-Verified.json",
+        "checksum": "74b0a38019c67a86cf0260c551844c21961a88040d644546bd74467540564fe4"
+      }
+    ],
+    "Maths-Dec24-Extracted-Verified-Q52": [
+      {
+        "file": "data\\converted\\Paper_2\\Maths-Dec24-Extracted-Verified.json",
+        "checksum": "74b0a38019c67a86cf0260c551844c21961a88040d644546bd74467540564fe4"
+      }
+    ],
+    "Maths-Dec24-Extracted-Verified-Q53": [
+      {
+        "file": "data\\converted\\Paper_2\\Maths-Dec24-Extracted-Verified.json",
+        "checksum": "74b0a38019c67a86cf0260c551844c21961a88040d644546bd74467540564fe4"
+      }
+    ],
+    "Maths-Dec24-Extracted-Verified-Q54": [
+      {
+        "file": "data\\converted\\Paper_2\\Maths-Dec24-Extracted-Verified.json",
+        "checksum": "74b0a38019c67a86cf0260c551844c21961a88040d644546bd74467540564fe4"
+      }
+    ],
+    "Maths-Dec24-Extracted-Verified-Q55": [
+      {
+        "file": "data\\converted\\Paper_2\\Maths-Dec24-Extracted-Verified.json",
+        "checksum": "74b0a38019c67a86cf0260c551844c21961a88040d644546bd74467540564fe4"
+      }
+    ],
+    "Maths-Dec24-Extracted-Verified-Q56": [
+      {
+        "file": "data\\converted\\Paper_2\\Maths-Dec24-Extracted-Verified.json",
+        "checksum": "74b0a38019c67a86cf0260c551844c21961a88040d644546bd74467540564fe4"
+      }
+    ],
+    "Maths-Dec24-Extracted-Verified-Q57": [
+      {
+        "file": "data\\converted\\Paper_2\\Maths-Dec24-Extracted-Verified.json",
+        "checksum": "74b0a38019c67a86cf0260c551844c21961a88040d644546bd74467540564fe4"
+      }
+    ],
+    "Maths-Dec24-Extracted-Verified-Q58": [
+      {
+        "file": "data\\converted\\Paper_2\\Maths-Dec24-Extracted-Verified.json",
+        "checksum": "74b0a38019c67a86cf0260c551844c21961a88040d644546bd74467540564fe4"
+      }
+    ],
+    "Maths-Dec24-Extracted-Verified-Q59": [
+      {
+        "file": "data\\converted\\Paper_2\\Maths-Dec24-Extracted-Verified.json",
+        "checksum": "74b0a38019c67a86cf0260c551844c21961a88040d644546bd74467540564fe4"
+      }
+    ],
+    "Maths-Dec24-Extracted-Verified-Q60": [
+      {
+        "file": "data\\converted\\Paper_2\\Maths-Dec24-Extracted-Verified.json",
+        "checksum": "74b0a38019c67a86cf0260c551844c21961a88040d644546bd74467540564fe4"
+      }
+    ],
+    "Maths-Dec24-Extracted-Verified-Q61": [
+      {
+        "file": "data\\converted\\Paper_2\\Maths-Dec24-Extracted-Verified.json",
+        "checksum": "74b0a38019c67a86cf0260c551844c21961a88040d644546bd74467540564fe4"
+      }
+    ],
+    "Maths-Dec24-Extracted-Verified-Q62": [
+      {
+        "file": "data\\converted\\Paper_2\\Maths-Dec24-Extracted-Verified.json",
+        "checksum": "74b0a38019c67a86cf0260c551844c21961a88040d644546bd74467540564fe4"
+      }
+    ],
+    "Maths-Dec24-Extracted-Verified-Q63": [
+      {
+        "file": "data\\converted\\Paper_2\\Maths-Dec24-Extracted-Verified.json",
+        "checksum": "74b0a38019c67a86cf0260c551844c21961a88040d644546bd74467540564fe4"
+      }
+    ],
+    "Maths-Dec24-Extracted-Verified-Q64": [
+      {
+        "file": "data\\converted\\Paper_2\\Maths-Dec24-Extracted-Verified.json",
+        "checksum": "74b0a38019c67a86cf0260c551844c21961a88040d644546bd74467540564fe4"
+      }
+    ],
+    "Maths-Dec24-Extracted-Verified-Q65": [
+      {
+        "file": "data\\converted\\Paper_2\\Maths-Dec24-Extracted-Verified.json",
+        "checksum": "74b0a38019c67a86cf0260c551844c21961a88040d644546bd74467540564fe4"
+      }
+    ],
+    "Maths-Dec24-Extracted-Verified-Q66": [
+      {
+        "file": "data\\converted\\Paper_2\\Maths-Dec24-Extracted-Verified.json",
+        "checksum": "74b0a38019c67a86cf0260c551844c21961a88040d644546bd74467540564fe4"
+      }
+    ],
+    "Maths-Dec24-Extracted-Verified-Q67": [
+      {
+        "file": "data\\converted\\Paper_2\\Maths-Dec24-Extracted-Verified.json",
+        "checksum": "74b0a38019c67a86cf0260c551844c21961a88040d644546bd74467540564fe4"
+      }
+    ],
+    "Maths-Dec24-Extracted-Verified-Q68": [
+      {
+        "file": "data\\converted\\Paper_2\\Maths-Dec24-Extracted-Verified.json",
+        "checksum": "74b0a38019c67a86cf0260c551844c21961a88040d644546bd74467540564fe4"
+      }
+    ],
+    "Maths-Dec24-Extracted-Verified-Q69": [
+      {
+        "file": "data\\converted\\Paper_2\\Maths-Dec24-Extracted-Verified.json",
+        "checksum": "74b0a38019c67a86cf0260c551844c21961a88040d644546bd74467540564fe4"
+      }
+    ],
+    "Maths-Dec24-Extracted-Verified-Q70": [
+      {
+        "file": "data\\converted\\Paper_2\\Maths-Dec24-Extracted-Verified.json",
+        "checksum": "74b0a38019c67a86cf0260c551844c21961a88040d644546bd74467540564fe4"
+      }
+    ],
+    "Maths-Dec24-Extracted-Verified-Q71": [
+      {
+        "file": "data\\converted\\Paper_2\\Maths-Dec24-Extracted-Verified.json",
+        "checksum": "74b0a38019c67a86cf0260c551844c21961a88040d644546bd74467540564fe4"
+      }
+    ],
+    "Maths-Dec24-Extracted-Verified-Q72": [
+      {
+        "file": "data\\converted\\Paper_2\\Maths-Dec24-Extracted-Verified.json",
+        "checksum": "74b0a38019c67a86cf0260c551844c21961a88040d644546bd74467540564fe4"
+      }
+    ],
+    "Maths-Dec24-Extracted-Verified-Q73": [
+      {
+        "file": "data\\converted\\Paper_2\\Maths-Dec24-Extracted-Verified.json",
+        "checksum": "74b0a38019c67a86cf0260c551844c21961a88040d644546bd74467540564fe4"
+      }
+    ],
+    "Maths-Dec24-Extracted-Verified-Q74": [
+      {
+        "file": "data\\converted\\Paper_2\\Maths-Dec24-Extracted-Verified.json",
+        "checksum": "74b0a38019c67a86cf0260c551844c21961a88040d644546bd74467540564fe4"
+      }
+    ],
+    "Maths-Dec24-Extracted-Verified-Q75": [
+      {
+        "file": "data\\converted\\Paper_2\\Maths-Dec24-Extracted-Verified.json",
+        "checksum": "74b0a38019c67a86cf0260c551844c21961a88040d644546bd74467540564fe4"
+      }
+    ],
+    "Maths-Dec24-Extracted-Verified-Q76": [
+      {
+        "file": "data\\converted\\Paper_2\\Maths-Dec24-Extracted-Verified.json",
+        "checksum": "74b0a38019c67a86cf0260c551844c21961a88040d644546bd74467540564fe4"
+      }
+    ],
+    "Maths-Dec24-Extracted-Verified-Q77": [
+      {
+        "file": "data\\converted\\Paper_2\\Maths-Dec24-Extracted-Verified.json",
+        "checksum": "74b0a38019c67a86cf0260c551844c21961a88040d644546bd74467540564fe4"
+      }
+    ],
+    "Maths-Dec24-Extracted-Verified-Q78": [
+      {
+        "file": "data\\converted\\Paper_2\\Maths-Dec24-Extracted-Verified.json",
+        "checksum": "74b0a38019c67a86cf0260c551844c21961a88040d644546bd74467540564fe4"
+      }
+    ],
+    "Maths-Dec24-Extracted-Verified-Q79": [
+      {
+        "file": "data\\converted\\Paper_2\\Maths-Dec24-Extracted-Verified.json",
+        "checksum": "74b0a38019c67a86cf0260c551844c21961a88040d644546bd74467540564fe4"
+      }
+    ],
+    "Maths-Dec24-Extracted-Verified-Q80": [
+      {
+        "file": "data\\converted\\Paper_2\\Maths-Dec24-Extracted-Verified.json",
+        "checksum": "74b0a38019c67a86cf0260c551844c21961a88040d644546bd74467540564fe4"
+      }
+    ],
+    "Maths-Dec24-Extracted-Verified-Q81": [
+      {
+        "file": "data\\converted\\Paper_2\\Maths-Dec24-Extracted-Verified.json",
+        "checksum": "74b0a38019c67a86cf0260c551844c21961a88040d644546bd74467540564fe4"
+      }
+    ],
+    "Maths-Dec24-Extracted-Verified-Q82": [
+      {
+        "file": "data\\converted\\Paper_2\\Maths-Dec24-Extracted-Verified.json",
+        "checksum": "74b0a38019c67a86cf0260c551844c21961a88040d644546bd74467540564fe4"
+      }
+    ],
+    "Maths-Dec24-Extracted-Verified-Q83": [
+      {
+        "file": "data\\converted\\Paper_2\\Maths-Dec24-Extracted-Verified.json",
+        "checksum": "74b0a38019c67a86cf0260c551844c21961a88040d644546bd74467540564fe4"
+      }
+    ],
+    "Maths-Dec24-Extracted-Verified-Q84": [
+      {
+        "file": "data\\converted\\Paper_2\\Maths-Dec24-Extracted-Verified.json",
+        "checksum": "74b0a38019c67a86cf0260c551844c21961a88040d644546bd74467540564fe4"
+      }
+    ],
+    "Maths-Dec24-Extracted-Verified-Q85": [
+      {
+        "file": "data\\converted\\Paper_2\\Maths-Dec24-Extracted-Verified.json",
+        "checksum": "74b0a38019c67a86cf0260c551844c21961a88040d644546bd74467540564fe4"
+      }
+    ],
+    "Maths-Dec24-Extracted-Verified-Q86": [
+      {
+        "file": "data\\converted\\Paper_2\\Maths-Dec24-Extracted-Verified.json",
+        "checksum": "74b0a38019c67a86cf0260c551844c21961a88040d644546bd74467540564fe4"
+      }
+    ],
+    "Maths-Dec24-Extracted-Verified-Q87": [
+      {
+        "file": "data\\converted\\Paper_2\\Maths-Dec24-Extracted-Verified.json",
+        "checksum": "74b0a38019c67a86cf0260c551844c21961a88040d644546bd74467540564fe4"
+      }
+    ],
+    "Maths-Dec24-Extracted-Verified-Q88": [
+      {
+        "file": "data\\converted\\Paper_2\\Maths-Dec24-Extracted-Verified.json",
+        "checksum": "74b0a38019c67a86cf0260c551844c21961a88040d644546bd74467540564fe4"
+      }
+    ],
+    "Maths-Dec24-Extracted-Verified-Q89": [
+      {
+        "file": "data\\converted\\Paper_2\\Maths-Dec24-Extracted-Verified.json",
+        "checksum": "74b0a38019c67a86cf0260c551844c21961a88040d644546bd74467540564fe4"
+      }
+    ],
+    "Maths-Dec24-Extracted-Verified-Q90": [
+      {
+        "file": "data\\converted\\Paper_2\\Maths-Dec24-Extracted-Verified.json",
+        "checksum": "74b0a38019c67a86cf0260c551844c21961a88040d644546bd74467540564fe4"
+      }
+    ],
+    "SST-Dec24-Extracted-Verified-Q31": [
+      {
+        "file": "data\\converted\\Paper_2\\SST-Dec24-Extracted-Verified.json",
+        "checksum": "24f60c4db8f7013674dceceb4b224d0f485e21f6e14e860ecfcf2b649cf18446"
+      }
+    ],
+    "SST-Dec24-Extracted-Verified-Q32": [
+      {
+        "file": "data\\converted\\Paper_2\\SST-Dec24-Extracted-Verified.json",
+        "checksum": "24f60c4db8f7013674dceceb4b224d0f485e21f6e14e860ecfcf2b649cf18446"
+      }
+    ],
+    "SST-Dec24-Extracted-Verified-Q33": [
+      {
+        "file": "data\\converted\\Paper_2\\SST-Dec24-Extracted-Verified.json",
+        "checksum": "24f60c4db8f7013674dceceb4b224d0f485e21f6e14e860ecfcf2b649cf18446"
+      }
+    ],
+    "SST-Dec24-Extracted-Verified-Q34": [
+      {
+        "file": "data\\converted\\Paper_2\\SST-Dec24-Extracted-Verified.json",
+        "checksum": "24f60c4db8f7013674dceceb4b224d0f485e21f6e14e860ecfcf2b649cf18446"
+      }
+    ],
+    "SST-Dec24-Extracted-Verified-Q35": [
+      {
+        "file": "data\\converted\\Paper_2\\SST-Dec24-Extracted-Verified.json",
+        "checksum": "24f60c4db8f7013674dceceb4b224d0f485e21f6e14e860ecfcf2b649cf18446"
+      }
+    ],
+    "SST-Dec24-Extracted-Verified-Q36": [
+      {
+        "file": "data\\converted\\Paper_2\\SST-Dec24-Extracted-Verified.json",
+        "checksum": "24f60c4db8f7013674dceceb4b224d0f485e21f6e14e860ecfcf2b649cf18446"
+      }
+    ],
+    "SST-Dec24-Extracted-Verified-Q37": [
+      {
+        "file": "data\\converted\\Paper_2\\SST-Dec24-Extracted-Verified.json",
+        "checksum": "24f60c4db8f7013674dceceb4b224d0f485e21f6e14e860ecfcf2b649cf18446"
+      }
+    ],
+    "SST-Dec24-Extracted-Verified-Q38": [
+      {
+        "file": "data\\converted\\Paper_2\\SST-Dec24-Extracted-Verified.json",
+        "checksum": "24f60c4db8f7013674dceceb4b224d0f485e21f6e14e860ecfcf2b649cf18446"
+      }
+    ],
+    "SST-Dec24-Extracted-Verified-Q39": [
+      {
+        "file": "data\\converted\\Paper_2\\SST-Dec24-Extracted-Verified.json",
+        "checksum": "24f60c4db8f7013674dceceb4b224d0f485e21f6e14e860ecfcf2b649cf18446"
+      }
+    ],
+    "SST-Dec24-Extracted-Verified-Q40": [
+      {
+        "file": "data\\converted\\Paper_2\\SST-Dec24-Extracted-Verified.json",
+        "checksum": "24f60c4db8f7013674dceceb4b224d0f485e21f6e14e860ecfcf2b649cf18446"
+      }
+    ],
+    "SST-Dec24-Extracted-Verified-Q41": [
+      {
+        "file": "data\\converted\\Paper_2\\SST-Dec24-Extracted-Verified.json",
+        "checksum": "24f60c4db8f7013674dceceb4b224d0f485e21f6e14e860ecfcf2b649cf18446"
+      }
+    ],
+    "SST-Dec24-Extracted-Verified-Q42": [
+      {
+        "file": "data\\converted\\Paper_2\\SST-Dec24-Extracted-Verified.json",
+        "checksum": "24f60c4db8f7013674dceceb4b224d0f485e21f6e14e860ecfcf2b649cf18446"
+      }
+    ],
+    "SST-Dec24-Extracted-Verified-Q43": [
+      {
+        "file": "data\\converted\\Paper_2\\SST-Dec24-Extracted-Verified.json",
+        "checksum": "24f60c4db8f7013674dceceb4b224d0f485e21f6e14e860ecfcf2b649cf18446"
+      }
+    ],
+    "SST-Dec24-Extracted-Verified-Q44": [
+      {
+        "file": "data\\converted\\Paper_2\\SST-Dec24-Extracted-Verified.json",
+        "checksum": "24f60c4db8f7013674dceceb4b224d0f485e21f6e14e860ecfcf2b649cf18446"
+      }
+    ],
+    "SST-Dec24-Extracted-Verified-Q45": [
+      {
+        "file": "data\\converted\\Paper_2\\SST-Dec24-Extracted-Verified.json",
+        "checksum": "24f60c4db8f7013674dceceb4b224d0f485e21f6e14e860ecfcf2b649cf18446"
+      }
+    ],
+    "SST-Dec24-Extracted-Verified-Q46": [
+      {
+        "file": "data\\converted\\Paper_2\\SST-Dec24-Extracted-Verified.json",
+        "checksum": "24f60c4db8f7013674dceceb4b224d0f485e21f6e14e860ecfcf2b649cf18446"
+      }
+    ],
+    "SST-Dec24-Extracted-Verified-Q47": [
+      {
+        "file": "data\\converted\\Paper_2\\SST-Dec24-Extracted-Verified.json",
+        "checksum": "24f60c4db8f7013674dceceb4b224d0f485e21f6e14e860ecfcf2b649cf18446"
+      }
+    ],
+    "SST-Dec24-Extracted-Verified-Q48": [
+      {
+        "file": "data\\converted\\Paper_2\\SST-Dec24-Extracted-Verified.json",
+        "checksum": "24f60c4db8f7013674dceceb4b224d0f485e21f6e14e860ecfcf2b649cf18446"
+      }
+    ],
+    "SST-Dec24-Extracted-Verified-Q49": [
+      {
+        "file": "data\\converted\\Paper_2\\SST-Dec24-Extracted-Verified.json",
+        "checksum": "24f60c4db8f7013674dceceb4b224d0f485e21f6e14e860ecfcf2b649cf18446"
+      }
+    ],
+    "SST-Dec24-Extracted-Verified-Q50": [
+      {
+        "file": "data\\converted\\Paper_2\\SST-Dec24-Extracted-Verified.json",
+        "checksum": "24f60c4db8f7013674dceceb4b224d0f485e21f6e14e860ecfcf2b649cf18446"
+      }
+    ],
+    "SST-Dec24-Extracted-Verified-Q51": [
+      {
+        "file": "data\\converted\\Paper_2\\SST-Dec24-Extracted-Verified.json",
+        "checksum": "24f60c4db8f7013674dceceb4b224d0f485e21f6e14e860ecfcf2b649cf18446"
+      }
+    ],
+    "SST-Dec24-Extracted-Verified-Q52": [
+      {
+        "file": "data\\converted\\Paper_2\\SST-Dec24-Extracted-Verified.json",
+        "checksum": "24f60c4db8f7013674dceceb4b224d0f485e21f6e14e860ecfcf2b649cf18446"
+      }
+    ],
+    "SST-Dec24-Extracted-Verified-Q53": [
+      {
+        "file": "data\\converted\\Paper_2\\SST-Dec24-Extracted-Verified.json",
+        "checksum": "24f60c4db8f7013674dceceb4b224d0f485e21f6e14e860ecfcf2b649cf18446"
+      }
+    ],
+    "SST-Dec24-Extracted-Verified-Q54": [
+      {
+        "file": "data\\converted\\Paper_2\\SST-Dec24-Extracted-Verified.json",
+        "checksum": "24f60c4db8f7013674dceceb4b224d0f485e21f6e14e860ecfcf2b649cf18446"
+      }
+    ],
+    "SST-Dec24-Extracted-Verified-Q55": [
+      {
+        "file": "data\\converted\\Paper_2\\SST-Dec24-Extracted-Verified.json",
+        "checksum": "24f60c4db8f7013674dceceb4b224d0f485e21f6e14e860ecfcf2b649cf18446"
+      }
+    ],
+    "SST-Dec24-Extracted-Verified-Q56": [
+      {
+        "file": "data\\converted\\Paper_2\\SST-Dec24-Extracted-Verified.json",
+        "checksum": "24f60c4db8f7013674dceceb4b224d0f485e21f6e14e860ecfcf2b649cf18446"
+      }
+    ],
+    "SST-Dec24-Extracted-Verified-Q57": [
+      {
+        "file": "data\\converted\\Paper_2\\SST-Dec24-Extracted-Verified.json",
+        "checksum": "24f60c4db8f7013674dceceb4b224d0f485e21f6e14e860ecfcf2b649cf18446"
+      }
+    ],
+    "SST-Dec24-Extracted-Verified-Q58": [
+      {
+        "file": "data\\converted\\Paper_2\\SST-Dec24-Extracted-Verified.json",
+        "checksum": "24f60c4db8f7013674dceceb4b224d0f485e21f6e14e860ecfcf2b649cf18446"
+      }
+    ],
+    "SST-Dec24-Extracted-Verified-Q59": [
+      {
+        "file": "data\\converted\\Paper_2\\SST-Dec24-Extracted-Verified.json",
+        "checksum": "24f60c4db8f7013674dceceb4b224d0f485e21f6e14e860ecfcf2b649cf18446"
+      }
+    ],
+    "SST-Dec24-Extracted-Verified-Q60": [
+      {
+        "file": "data\\converted\\Paper_2\\SST-Dec24-Extracted-Verified.json",
+        "checksum": "24f60c4db8f7013674dceceb4b224d0f485e21f6e14e860ecfcf2b649cf18446"
+      }
+    ],
+    "SST-Dec24-Extracted-Verified-Q61": [
+      {
+        "file": "data\\converted\\Paper_2\\SST-Dec24-Extracted-Verified.json",
+        "checksum": "24f60c4db8f7013674dceceb4b224d0f485e21f6e14e860ecfcf2b649cf18446"
+      }
+    ],
+    "SST-Dec24-Extracted-Verified-Q62": [
+      {
+        "file": "data\\converted\\Paper_2\\SST-Dec24-Extracted-Verified.json",
+        "checksum": "24f60c4db8f7013674dceceb4b224d0f485e21f6e14e860ecfcf2b649cf18446"
+      }
+    ],
+    "SST-Dec24-Extracted-Verified-Q63": [
+      {
+        "file": "data\\converted\\Paper_2\\SST-Dec24-Extracted-Verified.json",
+        "checksum": "24f60c4db8f7013674dceceb4b224d0f485e21f6e14e860ecfcf2b649cf18446"
+      }
+    ],
+    "SST-Dec24-Extracted-Verified-Q64": [
+      {
+        "file": "data\\converted\\Paper_2\\SST-Dec24-Extracted-Verified.json",
+        "checksum": "24f60c4db8f7013674dceceb4b224d0f485e21f6e14e860ecfcf2b649cf18446"
+      }
+    ],
+    "SST-Dec24-Extracted-Verified-Q65": [
+      {
+        "file": "data\\converted\\Paper_2\\SST-Dec24-Extracted-Verified.json",
+        "checksum": "24f60c4db8f7013674dceceb4b224d0f485e21f6e14e860ecfcf2b649cf18446"
+      }
+    ],
+    "SST-Dec24-Extracted-Verified-Q66": [
+      {
+        "file": "data\\converted\\Paper_2\\SST-Dec24-Extracted-Verified.json",
+        "checksum": "24f60c4db8f7013674dceceb4b224d0f485e21f6e14e860ecfcf2b649cf18446"
+      }
+    ],
+    "SST-Dec24-Extracted-Verified-Q67": [
+      {
+        "file": "data\\converted\\Paper_2\\SST-Dec24-Extracted-Verified.json",
+        "checksum": "24f60c4db8f7013674dceceb4b224d0f485e21f6e14e860ecfcf2b649cf18446"
+      }
+    ],
+    "SST-Dec24-Extracted-Verified-Q68": [
+      {
+        "file": "data\\converted\\Paper_2\\SST-Dec24-Extracted-Verified.json",
+        "checksum": "24f60c4db8f7013674dceceb4b224d0f485e21f6e14e860ecfcf2b649cf18446"
+      }
+    ],
+    "SST-Dec24-Extracted-Verified-Q69": [
+      {
+        "file": "data\\converted\\Paper_2\\SST-Dec24-Extracted-Verified.json",
+        "checksum": "24f60c4db8f7013674dceceb4b224d0f485e21f6e14e860ecfcf2b649cf18446"
+      }
+    ],
+    "SST-Dec24-Extracted-Verified-Q70": [
+      {
+        "file": "data\\converted\\Paper_2\\SST-Dec24-Extracted-Verified.json",
+        "checksum": "24f60c4db8f7013674dceceb4b224d0f485e21f6e14e860ecfcf2b649cf18446"
+      }
+    ],
+    "SST-Dec24-Extracted-Verified-Q71": [
+      {
+        "file": "data\\converted\\Paper_2\\SST-Dec24-Extracted-Verified.json",
+        "checksum": "24f60c4db8f7013674dceceb4b224d0f485e21f6e14e860ecfcf2b649cf18446"
+      }
+    ],
+    "SST-Dec24-Extracted-Verified-Q72": [
+      {
+        "file": "data\\converted\\Paper_2\\SST-Dec24-Extracted-Verified.json",
+        "checksum": "24f60c4db8f7013674dceceb4b224d0f485e21f6e14e860ecfcf2b649cf18446"
+      }
+    ],
+    "SST-Dec24-Extracted-Verified-Q73": [
+      {
+        "file": "data\\converted\\Paper_2\\SST-Dec24-Extracted-Verified.json",
+        "checksum": "24f60c4db8f7013674dceceb4b224d0f485e21f6e14e860ecfcf2b649cf18446"
+      }
+    ],
+    "SST-Dec24-Extracted-Verified-Q74": [
+      {
+        "file": "data\\converted\\Paper_2\\SST-Dec24-Extracted-Verified.json",
+        "checksum": "24f60c4db8f7013674dceceb4b224d0f485e21f6e14e860ecfcf2b649cf18446"
+      }
+    ],
+    "SST-Dec24-Extracted-Verified-Q75": [
+      {
+        "file": "data\\converted\\Paper_2\\SST-Dec24-Extracted-Verified.json",
+        "checksum": "24f60c4db8f7013674dceceb4b224d0f485e21f6e14e860ecfcf2b649cf18446"
+      }
+    ],
+    "SST-Dec24-Extracted-Verified-Q76": [
+      {
+        "file": "data\\converted\\Paper_2\\SST-Dec24-Extracted-Verified.json",
+        "checksum": "24f60c4db8f7013674dceceb4b224d0f485e21f6e14e860ecfcf2b649cf18446"
+      }
+    ],
+    "SST-Dec24-Extracted-Verified-Q77": [
+      {
+        "file": "data\\converted\\Paper_2\\SST-Dec24-Extracted-Verified.json",
+        "checksum": "24f60c4db8f7013674dceceb4b224d0f485e21f6e14e860ecfcf2b649cf18446"
+      }
+    ],
+    "SST-Dec24-Extracted-Verified-Q78": [
+      {
+        "file": "data\\converted\\Paper_2\\SST-Dec24-Extracted-Verified.json",
+        "checksum": "24f60c4db8f7013674dceceb4b224d0f485e21f6e14e860ecfcf2b649cf18446"
+      }
+    ],
+    "SST-Dec24-Extracted-Verified-Q79": [
+      {
+        "file": "data\\converted\\Paper_2\\SST-Dec24-Extracted-Verified.json",
+        "checksum": "24f60c4db8f7013674dceceb4b224d0f485e21f6e14e860ecfcf2b649cf18446"
+      }
+    ],
+    "SST-Dec24-Extracted-Verified-Q80": [
+      {
+        "file": "data\\converted\\Paper_2\\SST-Dec24-Extracted-Verified.json",
+        "checksum": "24f60c4db8f7013674dceceb4b224d0f485e21f6e14e860ecfcf2b649cf18446"
+      }
+    ],
+    "SST-Dec24-Extracted-Verified-Q81": [
+      {
+        "file": "data\\converted\\Paper_2\\SST-Dec24-Extracted-Verified.json",
+        "checksum": "24f60c4db8f7013674dceceb4b224d0f485e21f6e14e860ecfcf2b649cf18446"
+      }
+    ],
+    "SST-Dec24-Extracted-Verified-Q82": [
+      {
+        "file": "data\\converted\\Paper_2\\SST-Dec24-Extracted-Verified.json",
+        "checksum": "24f60c4db8f7013674dceceb4b224d0f485e21f6e14e860ecfcf2b649cf18446"
+      }
+    ],
+    "SST-Dec24-Extracted-Verified-Q83": [
+      {
+        "file": "data\\converted\\Paper_2\\SST-Dec24-Extracted-Verified.json",
+        "checksum": "24f60c4db8f7013674dceceb4b224d0f485e21f6e14e860ecfcf2b649cf18446"
+      }
+    ],
+    "SST-Dec24-Extracted-Verified-Q84": [
+      {
+        "file": "data\\converted\\Paper_2\\SST-Dec24-Extracted-Verified.json",
+        "checksum": "24f60c4db8f7013674dceceb4b224d0f485e21f6e14e860ecfcf2b649cf18446"
+      }
+    ],
+    "SST-Dec24-Extracted-Verified-Q85": [
+      {
+        "file": "data\\converted\\Paper_2\\SST-Dec24-Extracted-Verified.json",
+        "checksum": "24f60c4db8f7013674dceceb4b224d0f485e21f6e14e860ecfcf2b649cf18446"
+      }
+    ],
+    "SST-Dec24-Extracted-Verified-Q86": [
+      {
+        "file": "data\\converted\\Paper_2\\SST-Dec24-Extracted-Verified.json",
+        "checksum": "24f60c4db8f7013674dceceb4b224d0f485e21f6e14e860ecfcf2b649cf18446"
+      }
+    ],
+    "SST-Dec24-Extracted-Verified-Q87": [
+      {
+        "file": "data\\converted\\Paper_2\\SST-Dec24-Extracted-Verified.json",
+        "checksum": "24f60c4db8f7013674dceceb4b224d0f485e21f6e14e860ecfcf2b649cf18446"
+      }
+    ],
+    "SST-Dec24-Extracted-Verified-Q88": [
+      {
+        "file": "data\\converted\\Paper_2\\SST-Dec24-Extracted-Verified.json",
+        "checksum": "24f60c4db8f7013674dceceb4b224d0f485e21f6e14e860ecfcf2b649cf18446"
+      }
+    ],
+    "SST-Dec24-Extracted-Verified-Q89": [
+      {
+        "file": "data\\converted\\Paper_2\\SST-Dec24-Extracted-Verified.json",
+        "checksum": "24f60c4db8f7013674dceceb4b224d0f485e21f6e14e860ecfcf2b649cf18446"
+      }
+    ],
+    "SST-Dec24-Extracted-Verified-Q90": [
+      {
+        "file": "data\\converted\\Paper_2\\SST-Dec24-Extracted-Verified.json",
+        "checksum": "24f60c4db8f7013674dceceb4b224d0f485e21f6e14e860ecfcf2b649cf18446"
+      }
+    ]
+  }
+}

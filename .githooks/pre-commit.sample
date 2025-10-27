@@ -1,0 +1,20 @@
+#!/bin/sh
+# Sample pre-commit hook to enforce updating the Docs reference file.
+# To enable: copy this file to .git/hooks/pre-commit and make it executable.
+
+ROOT_DIR=$(dirname "$0")/.. || exit 0
+SCRIPT="$ROOT_DIR/scripts/check_reference.ps1"
+
+if [ -f "$SCRIPT" ]; then
+  # On Windows, users will have PowerShell. Try to run using pwsh or powershell.
+  if command -v pwsh >/dev/null 2>&1; then
+    pwsh -NoProfile -ExecutionPolicy Bypass -File "$SCRIPT" || exit 1
+  elif command -v powershell >/dev/null 2>&1; then
+    powershell -NoLogo -NoProfile -ExecutionPolicy Bypass -File "$SCRIPT" || exit 1
+  else
+    echo "PowerShell not found; please run scripts/check_reference.ps1 manually before committing." >&2
+    exit 1
+  fi
+fi
+
+exit 0

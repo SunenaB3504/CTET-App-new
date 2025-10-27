@@ -1,0 +1,20 @@
+{
+  "name": "ctet-prep-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "validate-json": "node ./scripts/validate-json.js",
+    "test:e2e": "npx playwright test",
+    "generate:favicons": "node ./scripts/generate-favicons.js",
+    "generate-and-copy:favicons": "npm run generate:favicons && node ./scripts/copy-favicons-to-app.js",
+    "dev": "npm --prefix ./app run dev"
+  },
+  "devDependencies": {
+    "ajv": "^8.12.0",
+    "ajv-formats": "^2.1.1",
+    "@playwright/test": "^1.39.0",
+    "http-server": "^14.1.1",
+    "sharp": "^0.32.1",
+    "png-to-ico": "^1.0.0"
+  }
+}

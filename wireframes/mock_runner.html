@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Mock Test — CTET Prep Wireframe</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+  <link rel="icon" type="image/png" sizes="48x48" href="favicon-48.png">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="manifest" href="manifest.webmanifest">
+  <meta name="theme-color" content="#374151">
+  <style>
+    /* Mobile-first responsive tweaks for mock runner */
+    .mr-wrapper{display:flex;flex-direction:column;gap:12px}
+    .mr-aside{width:100%;order:2;background:#fff;padding:12px;border-radius:8px;border:1px solid #eef2ff}
+    .mr-main{order:1;background:#fff;padding:16px;border-radius:8px;border:1px solid #eef2ff}
+    .mr-actions{display:flex;gap:8px;align-items:center}
+    .mr-actions .spacer{flex:1}
+    @media(min-width:900px){
+      .mr-wrapper{flex-direction:row}
+      .mr-aside{width:140px;order:1}
+      .mr-main{order:2;flex:1}
+    }
+    /* Make buttons full-width on small screens for easier tapping */
+    .mr-actions a.btn, .mr-actions button.btn{padding:10px 14px}
+    @media(max-width:540px){
+      .mr-actions a.btn, .mr-actions button.btn{flex:1}
+    }
+    .qid{font-weight:600;margin-bottom:8px}
+    .qtext{font-size:1rem;color:#111827}
+  </style>
+</head>
+<body>
+  <header class="header">
+    <button class="hamburger" aria-label="Toggle navigation" aria-expanded="false">
+      <svg viewBox="0 0 24 24" width="18" height="18" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M3 6h18v2H3V6zm0 5h18v2H3v-2zm0 5h18v2H3v-2z"/></svg>
+    </button>
+    <div class="logo">CTET Prep</div>
+  </header>
+  <main class="container">
+    <div class="mr-wrapper">
+      <aside class="mr-aside">
+        <h4>Questions</h4>
+        <ol id="question-list" style="padding-left:18px;margin:0">
+          <!-- populated by JS -->
+        </ol>
+      </aside>
+      <section class="mr-main">
+        <div class="qid" id="qid">Q1</div>
+        <div class="qtext" id="qtext">(Demo) Which of the following best describes formative assessment?</div>
+        <form id="options" style="margin-top:12px">
+          <!-- options injected here -->
+        </form>
+        <div style="margin-top:16px" class="mr-actions">
+          <button class="btn outline" id="prevBtn">Previous</button>
+          <button class="btn" id="nextBtn">Next</button>
+          <button class="btn" id="submitBtn">Submit (demo)</button>
+          <!-- Back to dashboard for easier navigation during testing -->
+          <a class="btn" href="dashboard.html">Back to Dashboard</a>
+        </div>
+      </section>
+    </div>
+  </main>
+  <footer class="footer">&copy; CTET Prep — Wireframe prototype</footer>
+  <script>
+    // Parse query params
+    function qs(){
+      const p = {};
+      location.search.substring(1).split('&').forEach(seg=>{if(!seg) return; const [k,v]=seg.split('='); p[decodeURIComponent(k)]=decodeURIComponent(v||'');});
+      return p;
+    }
+    const params = qs();
+    const paper = params.paper || 'Paper 2';
+    const subject = params.subject || 'CDP';
+    const count = parseInt(params.count||'5',10) || 5;
+    const mode = params.mode || 'Practice';
+
+    // Build question list
+    const qListEl = document.getElementById('question-list');
+    const qtext = document.getElementById('qtext');
+    const qidEl = document.getElementById('qid');
+    const optionsEl = document.getElementById('options');
+    let current = 0;
+    const questions = Array.from({length: count}).map((_,i)=>({id:`${subject}-Q${i+1}`, text:`(Demo) ${subject} sample question ${i+1} for ${paper} (${mode})`, options: ['Option A','Option B','Option C','Option D']}));
+
+    function renderList(){
+      qListEl.innerHTML = '';
+      questions.forEach((q,idx)=>{
+        const li = document.createElement('li');
+        li.textContent = idx+1;
+        if(idx===current) li.style.color = 'var(--accent)';
+        qListEl.appendChild(li);
+      });
+    }
+
+    function renderQuestion(idx){
+      const q = questions[idx];
+      qidEl.textContent = q.id;
+      qtext.textContent = q.text;
+      optionsEl.innerHTML = '';
+      q.options.forEach((opt,i)=>{
+        const label = document.createElement('label');
+        label.style.display='block';
+        const input = document.createElement('input');
+        input.type='radio'; input.name='q'; input.value = i;
+        label.appendChild(input);
+        label.append(' ' + opt);
+        optionsEl.appendChild(label);
+      });
+      renderList();
+    }
+
+    document.getElementById('nextBtn').addEventListener('click', ()=>{
+      if(current < questions.length-1){ current++; renderQuestion(current); }
+      else { alert('End of questions'); }
+    });
+    document.getElementById('prevBtn').addEventListener('click', ()=>{
+      if(current>0){ current--; renderQuestion(current); }
+    });
+    document.getElementById('submitBtn').addEventListener('click', ()=>{
+      alert('Submit (demo): selected answer index will be ignored in this prototype.');
+    });
+
+    // Keyboard shortcuts: N or Right Arrow -> next, P or Left Arrow -> prev, D -> dashboard
+    document.addEventListener('keydown', (e)=>{
+      if(e.key==='ArrowRight' || e.key==='n' || e.key==='N') document.getElementById('nextBtn').click();
+      if(e.key==='ArrowLeft' || e.key==='p' || e.key==='P') document.getElementById('prevBtn').click();
+      if(e.key==='d' || e.key==='D') location.href = 'dashboard.html';
+    });
+
+    // initial render
+    renderQuestion(0);
+  </script>
+    <script src="script.js"></script>
+</body>
+</html>
