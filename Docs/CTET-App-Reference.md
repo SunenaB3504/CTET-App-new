@@ -1,6 +1,6 @@
 # CTET Prep App — Single Source of Truth
 
-Version: 1.24
+Version: 1.25
 LastUpdated: 2025-10-28
 
 Purpose
@@ -110,7 +110,140 @@ JSON fields (required)
 
 Canonical data model & storage plan
 ----------------------------------
-We maintain a focused canonical data model and storage plan in `Docs/data-model.md`. That document describes the canonical `data/` layout, manifest shapes, checksum/versioning policy, ingest/validation flow, and chunking rules for question and study artifacts. Use it as the authoritative reference when adding new ingestion scripts, updating manifests, or changing the on-disk layout.
+This project uses a pragmatic file-first canonical model. The following describes the canonical on-disk shapes, directory layout, manifest/index design, checksum/versioning policy, ingest/validation flow, and archival guidance so implementers need not consult multiple documents.
+
+High-level directory layout
+--------------------------
+Canonical layout under `data/` (deployed or in-repo):
+
+- `data/`
+  - `index/` — manifests and indexes
+    - `manifest-latest.json` — pointer to current manifests (questions/study/mockTests)
+    - `manifest-questions-<timestamp>.json` — full questions manifest (rotated)
+    - `manifest-study-<timestamp>.json` — study manifest (rotated)
+  - `questions/` — chunked question files (by paper/language/subject)
+    - `paper-2/english/math/chunk-0001.json`
+  - `study/` — canonical study materials (chapter-per-file)
+    - `maths/chapter-01.json`
+  - `archives/` — archival snapshots (do not reference during normal loads)
+
+Canonical file shapes (examples)
+-------------------------------
+Questions chunk (example)
+```json
+{
+  "paper": "Paper 2",
+  "language": "Hindi",
+  "subject": "Mathematics",
+  "chunkId": "paper-2-hindi-maths-chunk-0001",
+  "items": [
+    {
+      "id": "Q-P2-HI-M-00001",
+      "question": "...",
+      "options": ["A","B","C","D"],
+      "correct_answer": "B",
+      "explanation": "...",
+      "metadata": { "pdfPage": 12, "topic": "Algebra", "difficulty": "Medium" }
+    }
+  ]
+}
+```
+
+Study chapter file (example)
+```json
+{
+  "subject": "Mathematics",
+  "language": "English",
+  "chapterId": "maths-ch-01",
+  "title": "Number Systems",
+  "order": 1,
+  "sections": [
+    { "id":"s1", "title":"Integers", "content":"# Integers\nContent...", "attachments":[] }
+  ]
+}
+```
+
+Manifest design
+---------------
+Two levels of manifest are used:
+
+1. `data/index/manifest-latest.json` — a small pointer file used by clients. Example:
+
+```json
+{
+  "version": "1",
+  "generatedAt": "2025-10-28T12:00:00Z",
+  "manifests": {
+    "questions": "data/index/manifest-questions-20251028.json",
+    "study": "data/index/manifest-study-20251028.json"
+  }
+}
+```
+
+2. `manifest-questions-<ts>.json` — heavier manifest consumed by tooling. It contains per-file metadata and a `questionIndex` mapping `questionId -> { filePath, chunkId, subject, paper, language, sha256 }`.
+
+Minimal manifest-questions example:
+
+```json
+{
+  "generatedAt": "2025-10-28T12:00:00Z",
+  "files": [
+    { "path":"data/questions/paper-2/hindi/math/chunk-0001.json", "sha256":"ABC...", "count": 250 }
+  ],
+  "questionIndex": {
+    "Q-P2-HI-M-00001": { "file":"data/questions/paper-2/hindi/math/chunk-0001.json", "sha256":"ABC...", "subject":"Mathematics", "paper":"Paper 2", "language":"Hindi" }
+  }
+}
+```
+
+Checksum & version policy
+-------------------------
+- Every produced file (`data/questions/*`, `data/study/*`) must have a SHA256 recorded in the manifest.
+- Manifests are timestamped and treated as immutable; `manifest-latest.json` points to the canonical manifest.
+- Regenerate with a new timestamped manifest and update `manifest-latest.json` atomically.
+
+Ingest & validation flow (high level)
+------------------------------------
+1. Content authors add source files to `Docs/` (e.g., `Docs/jsonData/` or `Docs/StudyData/`). If metadata is missing, a small `Docs/manifest-upload.json` mapping may be provided.
+2. Run the ingest pipeline (`scripts/convert-and-split.js` or `scripts/convert-add-paper-metadata.js` + `scripts/split-and-index.js`):
+   - Normalize top-level arrays into wrapped objects when necessary (add `paper`, `term`, `year`, `subject`, `language`). Prefer explicit metadata; infer from filenames only when safe and flag for review.
+   - Split into chunks (target ~200–500 items per chunk), compute SHA256 for each chunk, and write to `data/questions/...` using atomic writes (temp -> rename).
+   - Generate `manifest-questions-<ts>.json` and update `data/index/manifest-latest.json` atomically.
+3. Run `scripts/validate-json.js --manifest data/index/manifest-latest.json` to validate chunk files with AJV and check duplicate IDs.
+
+Atomic/transactional updates
+---------------------------
+- Use atomic file writes (`fs.writeFile(temp)` + `fs.rename`) so final files appear atomically.
+- When using GitOps, commit new files and manifest pointer updates together in a single commit.
+
+Archival & retention
+---------------------
+- Archival is explicit: copy originals into `archive/removed-data-<YYYYMMDD>/` and record checksums/sizes in `archive/metadata.json`.
+- Mark archived files in manifests with `archived: true`, `archivedAt`, and `archivePath`. Clients should ignore archived files by default.
+
+Client loader contract
+----------------------
+- Client reads `data/index/manifest-latest.json` to find the `questions` manifest.
+- For counts/previews, clients may use `files[]` in the manifest without downloading the full `questionIndex`.
+- For specific lookups, the client may download the `questionIndex` (small for moderate datasets). For very large datasets, use a `questionId -> chunk` index per paper to lazy-load chunks.
+
+CI & validation
+---------------
+- CI should run `node ./scripts/validate-json.js --manifest data/index/manifest-latest.json --json` and fail on validation or duplicate IDs.
+- For `Docs/` uploads, run `node ./scripts/validate-json.js --input <changed-file> --json` to validate individually.
+
+Acceptance criteria
+-------------------
+1. `manifest-latest.json` points to a `manifest-questions-<ts>.json` file.
+2. All chunk files referenced in the manifest exist and checksums match.
+3. No duplicate question IDs across the `questionIndex`.
+4. A local ingest flow exists to convert/publish a new manifest.
+
+Next steps (short)
+------------------
+1. Implement `scripts/convert-and-split.js` (wrap, split, checksum, write, manifest gen).
+2. Implement `scripts/validate-json.js --manifest` to validate manifests and chunks.
+3. Add a CI workflow to run manifest validation on PRs touching `Docs/` or `data/`.
 
 Feature list and status
 -----------------------
