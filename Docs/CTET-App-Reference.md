@@ -1,6 +1,6 @@
 # CTET Prep App — Single Source of Truth
 
-Version: 1.25
+Version: 1.26
 LastUpdated: 2025-10-28
 
 Purpose
@@ -450,6 +450,28 @@ Or via the npm script:
 
 ```powershell
 npm run validate-json -- .\Docs\jsonData\Paper2-Dec24\ENG-Dec24-Extracted-Verified.json
+```
+
+Duplicate detection & import preview
+-----------------------------------
+Two helper scripts were added to help avoid accidental duplicate imports and to preview suggested import actions.
+
+- `scripts/check-duplicates.js` — scan JSON sources and existing data for exact ID collisions and normalized-text duplicates. It writes a JSON report to `logs/duplicates-<timestamp>.json`. By default it does not fail (non-blocking), but CI can use `--fail` to exit non-zero when duplicates are found.
+
+  Example:
+
+```powershell
+node .\scripts\check-duplicates.js           # scan defaults (Docs/jsonData, data/questions, data/converted)
+node .\scripts\check-duplicates.js --fail --json Docs/jsonData data/questions
+```
+
+- `scripts/import-helper.js` — preview an upload and suggest actions (skip/rename) for duplicate IDs and near-duplicates. Writes a preview report to `logs/import-preview-<timestamp>.json` and prints suggestions.
+
+  Example:
+
+```powershell
+node .\scripts\import-helper.js .\Docs\jsonData\Paper2-Dec24\ENG-Dec24-Extracted-Verified.json
+node .\scripts\import-helper.js .\upload\new-upload.json --rename-duplicates
 ```
 
 CI workflow (GitHub Actions)
