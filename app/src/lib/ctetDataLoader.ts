@@ -84,4 +84,14 @@ export async function getQuestionById(qid: string){
   return null;
 }
 
-export default { loadManifest, listQuestions, listPapers, loadFile };
+import * as studyLoader from './studyLoader';
+
+export async function loadStudyList() {
+  return studyLoader.loadStudyList();
+}
+
+export async function loadStudyFile(url: string) {
+  return studyLoader.loadStudyFile(url);
+}
+
+export default { loadManifest, listQuestions, listPapers, loadFile, loadStudyList, loadStudyFile };

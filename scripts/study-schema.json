@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Study Material Schema",
+  "description": "Canonical schema for study materials (syllabus / chapter-based guides).",
+  "type": "object",
+  "required": ["subject", "language", "chapters"],
+  "properties": {
+    "subject": { "type": "string", "description": "Human-readable subject name, e.g. 'Mathematics'" },
+    "paper": { "type": "string", "description": "Optional: Paper identifier (Paper 1 | Paper 2)" },
+    "language": { "type": "string", "description": "Language code or name, e.g. 'English' or 'Hindi'" },
+    "version": { "type": "string", "description": "Optional schema/content version" },
+    "chapters": {
+      "type": "array",
+      "description": "Ordered list of chapters/units",
+      "items": {
+        "type": "object",
+        "required": ["id", "title"],
+        "properties": {
+          "id": { "type": ["string", "integer"], "description": "Stable chapter identifier" },
+          "title": { "type": "string", "description": "Chapter title" },
+          "order": { "type": "integer", "description": "Optional numeric order hint" },
+          "summary": { "type": "string", "description": "Short chapter summary or introduction (markdown or plain)" },
+          "sections": {
+            "type": "array",
+            "description": "Optional finer-grained sections inside a chapter",
+            "items": {
+              "type": "object",
+              "required": ["id", "title", "content"],
+              "properties": {
+                "id": { "type": ["string", "integer"] },
+                "title": { "type": "string" },
+                "content": { "type": "string", "description": "Markdown or sanitized HTML" },
+                "attachments": { "type": "array", "items": { "type": "string" }, "description": "Optional list of attachment file paths or URLs" },
+                "meta": { "type": "object", "additionalProperties": true }
+              }
+            }
+          },
+          "questions": {
+            "type": "array",
+            "description": "Optional questions associated with the chapter (if present) — permissive shape to accommodate existing extracts",
+            "items": {
+              "type": "object",
+              "properties": {
+                "id": { "type": "string" },
+                "question": { "type": "string" },
+                "questionNumber": { "type": ["string", "integer"] },
+                "options": { "type": "array", "items": { "type": "string" } },
+                "correctAnswer": { "type": ["string", "integer"] },
+                "explanation": { "type": "string" }
+              },
+              "required": []
+            }
+          }
+        }
+      }
+    }
+  },
+  "additionalProperties": false
+}

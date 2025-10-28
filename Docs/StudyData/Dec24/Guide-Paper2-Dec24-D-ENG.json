@@ -1,0 +1,623 @@
+[
+  {
+    "id": 1,
+    "title": "Reading Comprehension: Prose",
+    "summary": "This chapter focuses on the skills required to understand and analyze prose passages. The key is to move beyond surface-level reading to a deeper interpretation of the text, paying attention to vocabulary, author's intent, and the logical flow of ideas.\n---\n### Key Skills:\n\n*   **Identifying the Main Idea:** Find the central theme or message of the passage. Ask yourself, \"What is the most important point the author is trying to make?\"\n*   **Vocabulary in Context:** Understand the meaning of words and phrases as they are used in the passage. This includes identifying synonyms, antonyms (opposites), and the meaning of idioms (e.g., \"think out of the box\").\n*   **Making Inferences:** Draw logical conclusions based on the information given, even if it's not stated directly. This involves \"reading between the lines.\"\n*   **Identifying Author's Purpose and Tone:** Determine why the author wrote the passage (to inform, persuade, entertain) and the attitude they convey (e.g., nostalgic, critical, objective).\n*   **Locating Specific Details:** Quickly find and retrieve specific pieces of information from the text to answer factual questions.\n*   **Analyzing Grammar and Parts of Speech:** Identify the grammatical function of words within a sentence (e.g., noun, verb, adverb).",
+    "questions": [
+      {
+        "questionNumber": 91,
+        "subject": "English",
+        "question": "Read the passage given below and answer the questions (91 - 99) that follow :\n\n1.\nColours have a deeper significance for a home than one can imagine. For if used right, they can give a perfect look. In today's time, when there is an abundance of everything but space, colour plays an important role in creating the right ambience and perhaps the space that you crave for. Besides having a tremendous potential to create mood through sheer appeal to the senses, right use of colours actually helps you create the spacious feeling.\n\n2.For instance, instead of using a plain monotonous colour on all four walls, if you get a little imaginative, perhaps a little bold, you can create a sense of space within those four walls. One of the ways would be to blend light and dark colours. Or to paint two opposite sides in a lighter shade than the other two. Colour can add height to your room too. For instance, if the room is painted white and the upholstery of your furniture is in deep blue tone, the false ceilings could be painted in a light blue shade. Think out of the box to give even more interesting effects to your room.\n3. Whatever your choice is, there are options in the market to help you realise your needs. These days you get special patterned stencils to decorate walls with interesting patterns like flowers, leaves, birds etc. Some people draw an entire scenery on one side of the wall to give the feeling of bringing the outdoors inside. The choices are many, so are the creative ways. Just let your imagination flow. Every room reflects the personality of the occupant, hence it is important to pay attention to every detail. Your walls are your canvases, freshly painted and all bare. Go ahead, splash colours and watch the effect unfold.\n----------------------------\nThe word opposite in meaning to the underlined word in the given sentence is: 'Right use of colours actually helps you create the spacious feeling'.",
+        "options": [
+          "special",
+          "cramped",
+          "airy",
+          "fresh"
+        ],
+        "correctAnswer": 1,
+        "pdfPage": 61,
+        "answerKeyPage": 9,
+        "status": "verified",
+        "questionCorrect": true,
+        "answerCorrect": true,
+        "optionsCorrect": true,
+        "paper": "Paper 2",
+        "explanation": "### Correct Answer: Option (2) cramped\n\n**Explanation:**\nThe word **spacious** means having a lot of space or room. We are looking for its antonym (opposite).\n*   **Cramped** means feeling restricted or confined within a small space. This is the direct opposite of spacious.\n*   'Special', 'airy', and 'fresh' are not opposites of spacious. 'Airy' is actually a synonym."
+      },
+      {
+        "questionNumber": 92,
+        "subject": "English",
+        "question": "Identify the parts of speech of the underlined words in the sentence given below :\n‘Right use of colours _actually_ helps you create the spacious _feeling_’.",
+        "options": [
+          "conjunction, verb",
+          "adverb, noun",
+          "verb, adverb",
+          "preposition, verb"
+        ],
+        "correctAnswer": 1,
+        "pdfPage": 61,
+        "answerKeyPage": 9,
+        "status": "verified",
+        "questionCorrect": true,
+        "answerCorrect": true,
+        "optionsCorrect": true,
+        "paper": "Paper 2",
+        "explanation": "### Correct Answer: Option (2) adverb, noun\n\n**Explanation:**\n*   **actually:** This word modifies the verb \"helps.\" Words that modify verbs, adjectives, or other adverbs are **adverbs**. It answers the question of 'how' or 'in what manner' it helps.\n*   **feeling:** This word is preceded by the article \"the\" and refers to a sensation or an emotional state. It functions as a **noun** in this sentence."
+      },
+      {
+        "questionNumber": 93,
+        "subject": "English",
+        "question": "As mentioned by the writer in para 2, some ways by which you can break the monotony of the room is:",
+        "options": [
+          "by blending light and dark shades",
+          "painting all the 4 walls in plain colours",
+          "both (1) and (2)",
+          "(1) is correct, but not (2)"
+        ],
+        "correctAnswer": 0,
+        "pdfPage": 61,
+        "answerKeyPage": 9,
+        "status": "verified",
+        "questionCorrect": true,
+        "answerCorrect": true,
+        "optionsCorrect": true,
+        "paper": "Paper 2",
+        "explanation": "### Correct Answer: Option (1) by blending light and dark shades\n\n**Explanation:**\nThe passage explicitly states in paragraph 2, \"instead of using a plain monotonous colour on all four walls, if you get a little imaginative... One of the ways would be to **blend light and dark colours**.\" This directly supports option (1). Option (2) is what the author advises *against* doing. Therefore, only option (1) is the correct way mentioned to break the monotony."
+      },
+      {
+        "questionNumber": 94,
+        "subject": "English",
+        "question": "To think out of the box” does not mean to think :",
+        "options": [
+          "traditionally",
+          "creatively and imaginatively",
+          "about novel ideas",
+          "in unusual ways"
+        ],
+        "correctAnswer": 0,
+        "pdfPage": 62,
+        "answerKeyPage": 9,
+        "status": "verified",
+        "questionCorrect": true,
+        "answerCorrect": true,
+        "optionsCorrect": true,
+        "paper": "Paper 2",
+        "explanation": "### Correct Answer: Option (1) traditionally\n\n**Explanation:**\nThe idiom **\"to think out of the box\"** means to think in a creative, unconventional, or original way, moving beyond the usual constraints or rules. The question asks what it does **not** mean.\n*   Thinking **traditionally** means following established customs and conventional ways of thinking, which is the exact opposite of thinking outside the box.\n*   The other options (creatively, about novel ideas, in unusual ways) are all synonyms for thinking out of the box."
+      },
+      {
+        "questionNumber": 95,
+        "subject": "English",
+        "question": "According to the writer, it is important to pay attention to the colour scheme of your home because :",
+        "options": [
+          "the monotonous shades add life to the rooms",
+          "the ambience created makes it look boring",
+          "it reflects the personality of the owner",
+          "the walls reveal the secrets of your life"
+        ],
+        "correctAnswer": 2,
+        "pdfPage": 62,
+        "answerKeyPage": 9,
+        "status": "verified",
+        "questionCorrect": true,
+        "answerCorrect": true,
+        "optionsCorrect": true,
+        "paper": "Paper 2",
+        "explanation": "### Correct Answer: Option (3) it reflects the personality of the owner\n\n**Explanation:**\nThe passage states in paragraph 3, \"**Every room reflects the personality of the occupant**, hence it is important to pay attention to every detail.\" This directly answers the question."
+      },
+      {
+        "questionNumber": 96,
+        "subject": "English",
+        "question": "Read the following statements: \n(A) Colours if used creatively can give the perfect look to a room. \n(B) Space is abundant nowadays. \n(C) The right colour combination on walls and the roof creates a spacious feeling.",
+        "options": [
+          "(A) and (C) are incorrect, (B) is correct",
+          "(A) and (C) are correct, (B) is incorrect",
+          "(B) and (C) are correct, (A) is incorrect",
+          "(A), (B) and (C) are all correct"
+        ],
+        "correctAnswer": 1,
+        "pdfPage": 62,
+        "answerKeyPage": 9,
+        "status": "verified",
+        "questionCorrect": true,
+        "answerCorrect": true,
+        "optionsCorrect": true,
+        "paper": "Paper 2",
+        "explanation": "### Correct Answer: Option (2) (A) and (C) are correct, (B) is incorrect\n\n**Explanation:**\n*   **(A)** is **correct**. The passage begins, \"...if used right, they can give a perfect look.\"\n*   **(B)** is **incorrect**. The passage explicitly states, \"...when there is an abundance of everything **but space**,\" implying space is not abundant.\n*   **(C)** is **correct**. The passage states, \"...right use of colours actually helps you create the spacious feeling\" and gives examples of how painting walls and ceilings can create this effect."
+      },
+      {
+        "questionNumber": 97,
+        "subject": "English",
+        "question": "Complete the given word analogy :\nmonotonous : dull :: ambience : ___________?",
+        "options": [
+          "weather",
+          "room",
+          "temperature",
+          "aura"
+        ],
+        "correctAnswer": 3,
+        "pdfPage": 62,
+        "answerKeyPage": 9,
+        "status": "verified",
+        "questionCorrect": true,
+        "answerCorrect": true,
+        "optionsCorrect": true,
+        "paper": "Paper 2",
+        "explanation": "### Correct Answer: Option (4) aura\n\n**Explanation:**\nThe analogy is based on a synonym relationship. **Monotonous** is a synonym for **dull**. We need to find a synonym for **ambience**.\n*   **Ambience** refers to the character, atmosphere, or mood of a place.\n*   **Aura** also refers to the distinctive atmosphere or quality that seems to surround and be generated by a person, place, or thing.\n*   'Weather', 'room', and 'temperature' are related but are not direct synonyms for the feeling or atmosphere that 'ambience' describes."
+      },
+      {
+        "questionNumber": 98,
+        "subject": "English",
+        "question": "Some people draw colourful sceneries on their home walls to :",
+        "options": [
+          "blend dark and light colours",
+          "give a deeper significance to their home",
+          "bring nature into their homes",
+          "create a sense of space"
+        ],
+        "correctAnswer": 2,
+        "pdfPage": 62,
+        "answerKeyPage": 9,
+        "status": "verified",
+        "questionCorrect": true,
+        "answerCorrect": true,
+        "optionsCorrect": true,
+        "paper": "Paper 2",
+        "explanation": "### Correct Answer: Option (3) bring nature into their homes\n\n**Explanation:**\nParagraph 3 of the passage states, \"Some people draw an entire scenery on one side of the wall to give the feeling of **bringing the outdoors inside**.\" This directly corresponds to the idea of bringing nature into their homes."
+      },
+      {
+        "questionNumber": 99,
+        "subject": "English",
+        "question": "As mentioned by the writer in para 1, In today’s times, what is a modern day home owner longing\nfor ?",
+        "options": [
+          "Imagination",
+          "Colours",
+          "Space",
+          "Sheer appeal"
+        ],
+        "correctAnswer": 2,
+        "pdfPage": 62,
+        "answerKeyPage": 9,
+        "status": "verified",
+        "questionCorrect": true,
+        "answerCorrect": true,
+        "optionsCorrect": true,
+        "paper": "Paper 2",
+        "explanation": "### Correct Answer: Option (3) Space\n\n**Explanation:**\nParagraph 1 states, \"In today's time, when there is an abundance of everything **but space**, colour plays an important role in creating the right ambience and perhaps the **space that you crave for**.\" This clearly indicates that space is what modern homeowners are longing for."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Reading Comprehension: Poetry",
+    "summary": "This chapter focuses on analyzing poetry. Unlike prose, poetry uses condensed language, imagery, and sound devices to convey meaning and emotion. Understanding these elements is key to interpretation.\n---\n### Key Skills:\n\n*   **Identifying Poetic Devices:**\n    *   **Simile:** A comparison between two unlike things using \"like\" or \"as\" (e.g., \"snug **as** a gun\").\n    *   **Metaphor:** A direct comparison stating one thing *is* another (e.g., \"Your walls are your canvases\").\n    *   **Personification:** Giving human qualities to inanimate objects or abstract ideas (e.g., \"the spade **sings**\").\n    *   **Alliteration:** The repetition of the same consonant sound at the beginning of words in a phrase (e.g., \"**g**ravelly **g**round\").\n    *   **Hyperbole:** An extreme exaggeration for effect.\n\n*   **Analyzing Tone and Mood:** The **tone** is the speaker's attitude towards the subject (e.g., admiring, nostalgic, angry). The **mood** is the atmosphere created for the reader.\n\n*   **Interpreting Imagery:** Understanding the sensory details (sight, sound, touch, etc.) the poet uses to create a picture in the reader's mind.\n\n*   **Understanding Theme:** Identifying the central idea or message of the poem. In \"Digging\" by Seamus Heaney, a major theme is the connection and contrast between the manual labor of his ancestors and his own labor as a writer.",
+    "questions": [
+      {
+        "questionNumber": 100,
+        "subject": "English",
+        "question": "Read the poem given below and answer the questions (100 - 105) that follow :\n Between my finger and my thumb\n The squat pen rests: snug as a gun.\n Under my window, a clean rasping sound\n When the spade sings into gravelly ground.\n My father, digging, I look down\n Till his straining rump among the flowerbeds\n Bends low, comes up twenty years away\n Stooping in rhythm through potato drills,\n Where he was digging\n The coarse boot nestled on the lug, the shaft\n Against the inside knee was levered firmly.\n He rooted out tall tops, buried the bright edge deep.\n To scatter new potatoes that we picked,\n Loving their cool hardness in our hands.\n-----------------------------\n\nThe poetic devices in line 2 and line 4 are :",
+        "options": [
+          "metaphor and simile",
+          "metaphor and personification",
+          "hyperbole and metaphor",
+          "simile and alliteration"
+        ],
+        "correctAnswer": 3,
+        "pdfPage": 63,
+        "answerKeyPage": 9,
+        "status": "verified",
+        "questionCorrect": true,
+        "answerCorrect": true,
+        "optionsCorrect": true,
+        "paper": "Paper 2",
+        "explanation": "### Correct Answer: Option (4) simile and alliteration\n\n**Explanation:**\nLet's analyze the lines:\n*   **Line 2:** \"The squat pen rests: snug **as a gun**.\" The use of the word \"as\" to compare the feeling of the pen to a gun is a **simile**.\n*   **Line 4:** \"When the spade sings into **g**ravelly **g**round.\" The repetition of the initial \"g\" sound in \"gravelly ground\" is **alliteration**. (The phrase \"spade sings\" is also an example of personification, but alliteration is present and listed in the correct option).\n\nTherefore, the correct combination of poetic devices is simile and alliteration."
+      },
+      {
+        "questionNumber": 101,
+        "subject": "English",
+        "question": "What is the overall tone of the poem ?",
+        "options": [
+          "nostalgic and admiration",
+          "annoyance and anger",
+          "pitiful and sympathetic",
+          "disgust and animosity"
+        ],
+        "correctAnswer": 0,
+        "pdfPage": 63,
+        "answerKeyPage": 9,
+        "status": "verified",
+        "questionCorrect": true,
+        "answerCorrect": true,
+        "optionsCorrect": true,
+        "paper": "Paper 2",
+        "explanation": "### Correct Answer: Option (1) nostalgic and admiration\n\n**Explanation:**\n*   **Nostalgic:** The speaker looks down at his father digging and is transported back \"twenty years away\" to a memory of his father digging potatoes. This reflection on a fond past memory creates a nostalgic tone.\n*   **Admiration:** The speaker describes his father's skill and strength with deep respect (\"The coarse boot nestled on the lug, the shaft... levered firmly\"). He admires the connection his father and grandfather had with the land and their tools. The poem contrasts their physical labor with his own work as a writer, but the tone is one of respect and admiration for his heritage."
+      },
+      {
+        "questionNumber": 102,
+        "subject": "English",
+        "question": "Complete the word analogy: coarse : rough :: snug: _____?",
+        "options": [
+          "comfortable",
+          "lazy",
+          "perfect",
+          "lethal"
+        ],
+        "correctAnswer": 0,
+        "pdfPage": 63,
+        "answerKeyPage": 9,
+        "status": "verified",
+        "questionCorrect": true,
+        "answerCorrect": true,
+        "optionsCorrect": true,
+        "paper": "Paper 2",
+        "explanation": "### Correct Answer: Option (1) comfortable\n\n**Explanation:**\nThe analogy is based on a synonym relationship. **Coarse** is a synonym for **rough**. We need to find a synonym for **snug**.\n*   **Snug** means fitting closely and comfortably.\n*   **Comfortable** is the best synonym among the choices, conveying a sense of ease and a good fit."
+      },
+      {
+        "questionNumber": 103,
+        "subject": "English",
+        "question": "How does the speaker's father feel about his son’s choice of career?",
+        "options": [
+          "He is ambivalent towards the choice.",
+          "The poem doesn’t make it clear.",
+          "He wishes his son had chosen a more practical path.",
+          "He's glad his son is not a farmer."
+        ],
+        "correctAnswer": 1,
+        "pdfPage": 63,
+        "answerKeyPage": 9,
+        "status": "verified",
+        "questionCorrect": true,
+        "answerCorrect": true,
+        "optionsCorrect": true,
+        "paper": "Paper 2",
+        "explanation": "### Correct Answer: Option (2) The poem doesn’t make it clear.\n\n**Explanation:**\nThe poem is a reflection from the speaker's point of view. It focuses entirely on the speaker's memories of his father and grandfather and his admiration for their work. The speaker contrasts their \"spade\" with his \"pen.\" However, the poem contains no lines about the father's thoughts, feelings, or opinions regarding the speaker's career as a writer. Any assumption about the father's feelings would be speculation beyond the text provided."
+      },
+      {
+        "questionNumber": 104,
+        "subject": "English",
+        "question": "In the second stanza, the poet is observing :",
+        "options": [
+          "potato growers in the countryside",
+          "a gardener tending flower beds",
+          "his father digging potatoes",
+          "farmers in the fields"
+        ],
+        "correctAnswer": 2,
+        "pdfPage": 63,
+        "answerKeyPage": 9,
+        "status": "verified",
+        "questionCorrect": true,
+        "answerCorrect": true,
+        "optionsCorrect": true,
+        "paper": "Paper 2",
+        "explanation": "### Correct Answer: Option (3) his father digging potatoes\n\n**Explanation:**\nThe second stanza is a flashback memory. The lines \"comes up twenty years away / Stooping in rhythm through **potato drills**, / Where he was digging\" clearly indicate that the speaker is remembering his father specifically digging potatoes."
+      },
+      {
+        "questionNumber": 105,
+        "subject": "English",
+        "question": "“..... loving their cool hardness in our hands’. What is the speaker referring to the given line ?",
+        "options": [
+          "the potato drills",
+          "the gun",
+          "the handles of the spade",
+          "the potatoes"
+        ],
+        "correctAnswer": 3,
+        "pdfPage": 63,
+        "answerKeyPage": 9,
+        "status": "verified",
+        "questionCorrect": true,
+        "answerCorrect": true,
+        "optionsCorrect": true,
+        "paper": "Paper 2",
+        "explanation": "### Correct Answer: Option (4) the potatoes\n\n**Explanation:**\nThe line is the end of a sentence that begins, \"He rooted out tall tops, buried the bright edge deep. / To scatter **new potatoes that we picked**, / Loving their cool hardness in our hands.\" The pronoun \"their\" directly refers back to the \"new potatoes\" that the speaker and his father were picking."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Pedagogy of Language Development",
+    "summary": "This chapter covers the principles and methods of effective language teaching. It focuses on modern, learner-centered approaches that aim to develop communicative competence rather than just grammatical accuracy.\n---\n### Key Concepts:\n\n*   **Language Skills:**\n    *   **Receptive Skills:** Skills where we receive and process language. These are **Listening and Reading**.\n    *   **Productive Skills:** Skills where we produce language. These are **Speaking and Writing**.\n    *   **Integrated Skills:** Effective language tasks, like a **Project Work**, integrate all four skills (reading for research, writing the report, listening and speaking during collaboration).\n\n*   **Learning Approaches:**\n    *   **Bottom-up Approach:** This approach to listening or reading suggests that comprehension is built by starting with the smallest units of language—sounds, then words, then phrases, then sentences—and assembling them into a whole meaning.\n    *   **Top-down Approach:** This approach suggests that learners use their background knowledge, context, and expectations to understand the overall meaning first, and then work down to the details.\n\n*   **Teaching Materials and Methods:**\n    *   **Authentic Materials:** These are materials created for native speakers in a real-life context, not specifically for language learners (e.g., newspaper articles, menus, songs). They are valuable for exposing learners to natural language.\n    *   **Grammar Teaching (Consciousness-Raising):** This is an inductive approach where the teacher doesn't just state the rule. Instead, they provide language in a context, guide learners to **notice** the grammatical form, and help them discover the rule for themselves.\n    *   **Language Register:** The style of language used in a particular context. For example, a legal document, a scientific paper, and a social science text will all use different vocabulary and sentence structures (registers).\n\n*   **Assessment:**\n    *   **Portfolio:** A purposeful collection of a student's work over time. It provides a continuous record of their learning, effort, and progress, showing their development in a way a single test cannot.\n\n*   **Motivation in Language Learning:**\n    *   **Instrumental Motivation:** Learning a language for a practical, utilitarian purpose, such as getting a job, passing an exam, or being able to travel.\n    *   **Integrative Motivation:** Learning a language to connect with the culture and community of its speakers.\n\n*   **Language Policy (NEP 2020):**\n    *   **Foreign Languages:** The National Education Policy 2020 recommends the study of foreign languages as an **additional option**, particularly at the secondary stage. It is **not** part of the three-language formula.\n    *   **Classical Languages:** India officially recognizes several classical languages, including Tamil, Sanskrit, and Telugu. Hindi, while an official language, is not classified as a classical language.",
+    "questions": [
+      {
+        "questionNumber": 106,
+        "subject": "English",
+        "question": "‘Authenticity of materials’ refers to :",
+        "options": [
+          "materials which children bring from home.",
+          "materials written by the teacher for her class.",
+          "materials written or developed by people in authority.",
+          "materials written or developed in real life content."
+        ],
+        "correctAnswer": 3,
+        "pdfPage": 64,
+        "answerKeyPage": 9,
+        "status": "verified",
+        "questionCorrect": true,
+        "answerCorrect": true,
+        "optionsCorrect": true,
+        "paper": "Paper 2",
+        "explanation": "### Correct Answer: Option (4) materials written or developed in real life content.\n\n**Explanation:**\nIn language teaching, **authentic materials** are texts (written, spoken, or visual) that were created for native speakers for a real communicative purpose, not specifically for language learners. Examples include newspaper articles, menus, songs, movie clips, and websites. Their value lies in exposing learners to language as it is actually used in a **real-life context**."
+      },
+      {
+        "questionNumber": 107,
+        "subject": "English",
+        "question": "Aparna, a learner of class V understands that listening involves listening to each sound, words, then sentences to get the meaning of the speech or an audio. Which approach/ strategy she believes\nin for learning to listen ?",
+        "options": [
+          "Itis neither top-down nor bottom-up approach",
+          "Top-down approach",
+          "Bottom-up approach",
+          "Both top-down and bottom-up approach"
+        ],
+        "correctAnswer": 2,
+        "pdfPage": 64,
+        "answerKeyPage": 9,
+        "status": "verified",
+        "questionCorrect": true,
+        "answerCorrect": true,
+        "optionsCorrect": true,
+        "paper": "Paper 2",
+        "explanation": "### Correct Answer: Option (3) Bottom-up approach\n\n**Explanation:**\n*   **Bottom-up Processing:** This model of comprehension suggests that meaning is constructed by starting with the smallest units of language and building upwards. A listener or reader decodes sounds into words, words into phrases, phrases into sentences, and so on, until the full meaning is assembled. Aparna's belief that listening involves processing \"each sound, words, then sentences\" is a perfect description of this approach.\n*   **Top-down Processing:** In contrast, this approach involves using background knowledge, context, and overall expectations to understand the meaning of a text."
+      },
+      {
+        "questionNumber": 108,
+        "subject": "English",
+        "question": "What is ‘systemic competence’ in language learning?",
+        "options": [
+          "Understanding that all humans have a system of many languages.",
+          "Understanding and applying that language works as a system.",
+          "Understanding and applying that languages have a grammatical system.",
+          "Understanding that all languages have a common structural system."
+        ],
+        "correctAnswer": 1,
+        "pdfPage": 64,
+        "answerKeyPage": 9,
+        "status": "verified",
+        "questionCorrect": true,
+        "answerCorrect": true,
+        "optionsCorrect": true,
+        "paper": "Paper 2",
+        "explanation": "### Correct Answer: Option (2) Understanding and applying that language works as a system.\n\n**Explanation:**\n**Systemic competence** refers to a learner's knowledge of the linguistic system of a language and their ability to use it. This includes understanding the various interconnected components—phonology (sound system), morphology (word structure), syntax (sentence structure), and lexis (vocabulary)—and how they work together as a coherent **system** to create meaning. Option (3) is too narrow as it only mentions grammar; systemic competence is broader."
+      },
+      {
+        "questionNumber": 109,
+        "subject": "English",
+        "question": "Which language register does the following text represent? The Indian Constitution recognises every person as equal. This means that every individual in the country, including male and female, person from all castes, religions, tribes, educational and economic background are recognised as equal. This is not to say that inequity ceases to exist. It doesn’t. But at least, in democratic India, the principle of the equality of all persons is recognised.",
+        "options": [
+          "Scientific register",
+          "Politic register",
+          "Social Science register",
+          "Legal register"
+        ],
+        "correctAnswer": 2,
+        "pdfPage": 64,
+        "answerKeyPage": 9,
+        "status": "verified",
+        "questionCorrect": true,
+        "answerCorrect": true,
+        "optionsCorrect": true,
+        "paper": "Paper 2",
+        "explanation": "### Correct Answer: Option (3) Social Science register\n\n**Explanation:**\nA **language register** is the style of language used in a particular situation. The given text discusses concepts like equality, the constitution, democracy, caste, and religion. These are core topics within the fields of civics, political science, and sociology. The formal, analytical, and explanatory style is characteristic of a **Social Science register**, as one would find in a civics or political science textbook. While it touches on legal and political ideas, \"Social Science\" is the broadest and most fitting category."
+      },
+      {
+        "questionNumber": 110,
+        "subject": "English",
+        "question": "A teacher of class VI does a warm-up activity to connect their previous knowledge and experience with the text they would read. She asks her learners to look at the illustrations of the reading text (the story) before she begins to teach the text. What does she want her learners to do?",
+        "options": [
+          "Make them understand the illustrations.",
+          "Visualize the story through the illustrations.",
+          "Appreciate the illustrations.",
+          "Make predictions about the reading text."
+        ],
+        "correctAnswer": 3,
+        "pdfPage": 64,
+        "answerKeyPage": 9,
+        "status": "verified",
+        "questionCorrect": true,
+        "answerCorrect": true,
+        "optionsCorrect": true,
+        "paper": "Paper 2",
+        "explanation": "### Correct Answer: Option (4) Make predictions about the reading text.\n\n**Explanation:**\nThis is a classic **pre-reading strategy**. The purpose of asking students to look at illustrations, titles, or headings before reading is to activate their prior knowledge and encourage them to **make predictions** about the content. This creates anticipation and gives students a purpose for reading: to confirm or revise their predictions. It's a key step in building comprehension skills."
+      },
+      {
+        "questionNumber": 111,
+        "subject": "English",
+        "question": "A continuous record of instances of learning by the learners is known as :",
+        "options": [
+          "Diagnostic test",
+          "Portfolio",
+          "Continuous Comprehensive Assessment",
+          "Proficiency assessment"
+        ],
+        "correctAnswer": 1,
+        "pdfPage": 64,
+        "answerKeyPage": 9,
+        "status": "verified",
+        "questionCorrect": true,
+        "answerCorrect": true,
+        "optionsCorrect": true,
+        "paper": "Paper 2",
+        "explanation": "### Correct Answer: Option (2) Portfolio\n\n**Explanation:**\nA **Portfolio** is a purposeful collection of a student's work over a period of time. It is designed to be a \"continuous record\" that showcases their efforts, progress, and achievements in one or more areas. Unlike a single test, a portfolio provides a richer, more holistic picture of a learner's development and can include various \"instances of learning\" like drafts, final essays, project reports, artwork, and reflections."
+      },
+      {
+        "questionNumber": 112,
+        "subject": "English",
+        "question": "Which of the following are known as receptive skills ?",
+        "options": [
+          "Listening and reading",
+          "Listening and writing",
+          "Reading and speaking",
+          "Speaking and writing"
+        ],
+        "correctAnswer": 0,
+        "pdfPage": 64,
+        "answerKeyPage": 9,
+        "status": "verified",
+        "questionCorrect": true,
+        "answerCorrect": true,
+        "optionsCorrect": true,
+        "paper": "Paper 2",
+        "explanation": "### Correct Answer: Option (1) Listening and reading\n\n**Explanation:**\nThe four basic language skills are often categorized into two types:\n*   **Receptive Skills:** These are the skills where you are receiving and processing information. This includes **Listening** (receiving auditory input) and **Reading** (receiving written input). They are also known as passive skills.\n*   **Productive Skills:** These are the skills where you are producing language. This includes **Speaking** (producing oral output) and **Writing** (producing written output). They are also known as active skills."
+      },
+      {
+        "questionNumber": 113,
+        "subject": "English",
+        "question": "Many Indians who go abroad for jobs learn the language of the place. What is this motivation\nknown as ?",
+        "options": [
+          "Itis neither instrumental nor integrative motivation.",
+          "Both integrative and instrumental motivation.",
+          "Integrative motivation.",
+          "Instrumental motivation."
+        ],
+        "correctAnswer": 3,
+        "pdfPage": 65,
+        "answerKeyPage": 9,
+        "status": "verified",
+        "questionCorrect": true,
+        "answerCorrect": true,
+        "optionsCorrect": true,
+        "paper": "Paper 2",
+        "explanation": "### Correct Answer: Option (4) Instrumental motivation.\n\n**Explanation:**\n*   **Instrumental Motivation:** This refers to learning a language for a practical or utilitarian purpose—as an \"instrument\" to achieve a goal. Learning a language to get a job, pass an exam, or for business purposes are all examples of instrumental motivation.\n*   **Integrative Motivation:** This refers to learning a language because the learner wants to integrate into the culture and community of the people who speak it. The motivation is social and cultural.\n\nIn this scenario, learning the language for a job is a clear example of a practical, goal-oriented reason, which is instrumental motivation."
+      },
+      {
+        "questionNumber": 114,
+        "subject": "English",
+        "question": "Which of the following language is NOT a classical language ?",
+        "options": [
+          "Hindi",
+          "Tamil",
+          "Sanskrit",
+          "Telugu"
+        ],
+        "correctAnswer": 0,
+        "pdfPage": 65,
+        "answerKeyPage": 9,
+        "status": "verified",
+        "questionCorrect": true,
+        "answerCorrect": true,
+        "optionsCorrect": true,
+        "paper": "Paper 2",
+        "explanation": "### Correct Answer: Option (1) Hindi\n\n**Explanation:**\nThe Government of India has designated six languages as \"Classical Languages\" based on criteria such as high antiquity of its early texts and a rich, independent literary tradition. These languages are:\n1.  **Tamil** (declared in 2004)\n2.  **Sanskrit** (declared in 2005)\n3.  **Kannada** (declared in 2008)\n4.  **Telugu** (declared in 2008)\n5.  **Malayalam** (declared in 2013)\n6.  **Odia** (declared in 2014)\n\n**Hindi**, while being one of the official languages of India with a rich literary tradition, is a modern Indo-Aryan language and does not meet the specific antiquity criteria to be classified as a classical language."
+      },
+      {
+        "questionNumber": 115,
+        "subject": "English",
+        "question": "Which of the following is NOT true of the National Education Policy (NEP) 2020 on the study of foreign languages ?",
+        "options": [
+          "French is one of the language recommended to be studied as an additional option.",
+          "Study of foreign languages as an additional option during the secondary stage.",
+          "Study of foreign languages included as one of the languages under the three language formula.",
+          "Foreign language does not include in the three languages studied under three language formula."
+        ],
+        "correctAnswer": 2,
+        "pdfPage": 65,
+        "answerKeyPage": 9,
+        "status": "verified",
+        "questionCorrect": true,
+        "answerCorrect": true,
+        "optionsCorrect": true,
+        "paper": "Paper 2",
+        "explanation": "### Correct Answer: Option (3) Study of foreign languages included as one of the languages under the three language formula.\n\n**Explanation:**\nThis statement is **NOT true**. The National Education Policy (NEP) 2020 is very clear on this point.\n*   The **Three-Language Formula** will continue, and it should consist of at least two Indian languages.\n*   The study of foreign languages (like French, German, Japanese, etc.) is encouraged, but as an **additional elective option** at the secondary stage. It is explicitly positioned **outside** of the three-language formula.\n\nThe other statements are true: French is one of the recommended options, and they are to be studied as additional options at the secondary stage."
+      },
+      {
+        "questionNumber": 116,
+        "subject": "English",
+        "question": "Which of the following refers to ‘Knowing about language’?",
+        "options": [
+          "Strategic competence",
+          "Declarative knowledge",
+          "Procedural knowledge",
+          "Grammatical knowledge"
+        ],
+        "correctAnswer": 1,
+        "pdfPage": 65,
+        "answerKeyPage": 9,
+        "status": "verified",
+        "questionCorrect": true,
+        "answerCorrect": true,
+        "optionsCorrect": true,
+        "paper": "Paper 2",
+        "explanation": "### Correct Answer: Option (2) Declarative knowledge\n\n**Explanation:**\nIn cognitive psychology and language learning, there is a key distinction between two types of knowledge:\n*   **Declarative Knowledge:** This is the \"knowing **what**\" or \"knowing **about**.\" It is the explicit, factual knowledge of rules, concepts, and information. Knowing the rules of grammar, vocabulary definitions, and facts about a language falls under declarative knowledge.\n*   **Procedural Knowledge:** This is the \"knowing **how**.\" It is the implicit, automatic knowledge of how to perform a skill. Being able to speak or write a language fluently, without consciously thinking about the rules, is procedural knowledge.\n\nTherefore, 'Knowing about language' directly refers to declarative knowledge."
+      },
+      {
+        "questionNumber": 117,
+        "subject": "English",
+        "question": "A teacher of class VI develops the following task for a speaking activity.\nSpeak five sentences about desert and its climatic conditions.\nIs it a good task or not a good task ? Select from option your response and reason for the same.",
+        "options": [
+          "Itis nota good task because it lacks context as there is no input for speaking about desert and its conditions.",
+          "Itis a good task because the learners may have studied about desert in their geography class and will have inputs to speak.",
+          "Itis a good task because it makes the learner to talk about something i.e the desert.",
+          "Itis not a good task because some of the learners may not know about desert."
+        ],
+        "correctAnswer": 0,
+        "pdfPage": 65,
+        "answerKeyPage": 9,
+        "status": "verified",
+        "questionCorrect": true,
+        "answerCorrect": true,
+        "optionsCorrect": true,
+        "paper": "Paper 2",
+        "explanation": "### Correct Answer: Option (1) It is not a good task because it lacks context as there is no input for speaking about desert and its conditions.\n\n**Explanation:**\nFrom a communicative language teaching perspective, effective speaking tasks should be contextualized. Simply asking students to produce sentences \"out of the blue\" can be difficult and unnatural.\n*   **Lack of Input/Context:** A good speaking activity is usually preceded by some form of **input** (like a short reading text, a video, a picture, or a listening activity) that provides context, ideas, and key vocabulary. This task provides no such input, leaving students to rely solely on their prior knowledge, which may be limited or non-existent for some. This lack of a shared context makes the task less effective and potentially stressful.\n*   Option (2) makes an unsafe assumption that all learners will have the necessary prior knowledge from another class. A well-designed task should provide the necessary context within the activity itself."
+      },
+      {
+        "questionNumber": 118,
+        "subject": "English",
+        "question": "Which of the following statements is true of a dialect of a language?",
+        "options": [
+          "A dialect is a bigger category and a language is a smaller category.",
+          "Speakers of different dialects of one language can understand other dialect speakers.",
+          "Dialects of a language vary from region to region.",
+          "Sometimes different social groups may speak different dialects of the same language."
+        ],
+        "correctAnswer": 3,
+        "pdfPage": 65,
+        "answerKeyPage": 9,
+        "status": "verified",
+        "questionCorrect": true,
+        "answerCorrect": true,
+        "optionsCorrect": true,
+        "paper": "Paper 2",
+        "explanation": "### Correct Answer: Option (4) Sometimes different social groups may speak different dialects of the same language.\n\n**Explanation:**\nThis question is tricky because options (2), (3), and (4) all contain elements of truth about dialects. However, option (4) introduces the important concept of sociolects.\n*   **Dialects** are varieties of a language.\n*   **Regiolects (Option 3):** These are dialects that vary by geographical region. This is the most common understanding of a dialect and is true.\n*   **Sociolects (Option 4):** These are dialects that vary by social group (e.g., class, ethnicity, age). This is also true.\n*   **Mutual Intelligibility (Option 2):** This is often used as a criterion to distinguish a dialect from a separate language, but it's not a perfect rule. Speakers on opposite ends of a \"dialect continuum\" may not understand each other.\n\nGiven the options, (4) is a sophisticated and accurate statement. The question asks which is true, and multiple are. In such cases, one must choose the 'most' true or the one that represents a key concept. The provided answer key points to (4), highlighting that dialects are not just regional but can also be social."
+      },
+      {
+        "questionNumber": 119,
+        "subject": "English",
+        "question": "Which of the following tasks promotes integrated learning skills?",
+        "options": [
+          "Writing an article",
+          "Role play",
+          "Assignment",
+          "Project work"
+        ],
+        "correctAnswer": 3,
+        "pdfPage": 65,
+        "answerKeyPage": 9,
+        "status": "verified",
+        "questionCorrect": true,
+        "answerCorrect": true,
+        "optionsCorrect": true,
+        "paper": "Paper 2",
+        "explanation": "### Correct Answer: Option (4) Project work\n\n**Explanation:**\nAn **integrated skills** approach involves using all four language skills (listening, speaking, reading, and writing) together in a meaningful task, just as we do in real life.\n*   A **Project Work** is the best example of this. To complete a project, students typically need to:\n    *   **Read** source materials for research.\n    *   **Listen** to classmates during group discussions and **speak** to share ideas.\n    *   **Write** a report, create a poster, or script a presentation.\n    *   **Speak** again when presenting their final work.\n*   The other options tend to focus on fewer skills. A role play is mainly speaking and listening. Writing an article is mainly writing. An assignment could be any one of these. A project work is the most comprehensive and integrative."
+      },
+      {
+        "questionNumber": 120,
+        "subject": "English",
+        "question": "What is the following strategy in the context of grammar teaching known as? Introducing language items in contexts, making learners notice the language items, enabling them to use them in real-life contexts, and drawing the attention of the learner to the form by discovering it.",
+        "options": [
+          "Consciousness Raising",
+          "Creating a Schema",
+          "Deductive method",
+          "Discovery methods"
+        ],
+        "correctAnswer": 0,
+        "pdfPage": 65,
+        "answerKeyPage": 9,
+        "status": "verified",
+        "questionCorrect": true,
+        "answerCorrect": true,
+        "optionsCorrect": true,
+        "paper": "Paper 2",
+        "explanation": "### Correct Answer: Option (1) Consciousness Raising\n\n**Explanation:**\n**Consciousness-Raising (CR)** is an approach to grammar teaching that aligns with the description. It is an inductive method where the goal is not to have students produce the grammar point immediately, but to make them aware of it. The key steps described are:\n1.  **Introducing in context:** Presenting the grammar point in a meaningful text or situation.\n2.  **Making learners notice:** Guiding students to pay attention to the specific form or structure (this is the core of consciousness-raising).\n3.  **Discovering it:** Helping learners figure out the rule for themselves, rather than being told it directly.\n\nThis process raises the learner's explicit awareness of how the language works, which is believed to facilitate later acquisition."
+      }
+    ]
+  }
+]
