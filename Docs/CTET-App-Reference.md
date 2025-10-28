@@ -1,7 +1,7 @@
 # CTET Prep App — Single Source of Truth
 
-Version: 1.21
-LastUpdated: 2025-10-27
+Version: 1.23
+LastUpdated: 2025-10-28
 
 Purpose
 -------
@@ -119,7 +119,7 @@ This table is the living inventory of features and their current status. Update 
 | F-003 | User signup/login | Attractive onboarding, sample content access | Prototype (UI) | Login page present; no real auth backend. |
 | F-004 | Monetization (per-paper) | Payments and access gating per paper | Not Started | Payment gateway integration required (Stripe/Razorpay). |
 | F-005 | Question bank | Store questions with explanations and search/filter | Prototype (UI) | Static sample pages; dynamic search/filter not implemented. |
-| F-006 | Study materials | Syllabus-based study content with chapters | Prototype (UI) | Static study page exists; content authoring UI not implemented. |
+| F-006 | Study materials | Syllabus-based study content with chapters | In Progress (plan created) | Plan drafted; schema + validator prioritized. See `Docs/StudyData/Dec24` for inputs. |
 | F-007 | Mock test engine | Configurable mock tests with analytics | Prototype (UI) | Runner and result pages exist as demos; no real test data or persistence. |
 | F-008 | Detailed analytics | Topic-level feedback and history | Not Started | Basic result demo exists; analytics engine not implemented. |
 | F-009 | Offline & export | Offline access (PWA), export user data as JSON/CSV | In Progress | Implementing IndexedDB caching and export tools; split-and-index pipeline will improve offline packaging. |
@@ -491,3 +491,6 @@ This document is authoritative. All designers, developers, and QA engineers must
   - Added `scripts/check-manifest.js` to verify converted files exist, question counts match, and IDs are unique across converted artifacts.
   - Added a Vitest integration test `app/src/lib/__tests__/f001-convert-validate.test.ts` that runs the converter on a small fixture and validates the converted output.
   - Updated `.github/workflows/validate-json.yml` to run the manifest sanity check as part of PR validation for `Docs/jsonData/**` changes. (Author: Automated assistant)
+ - 2025-10-27 — v1.22 — Study materials ingestion plan (F-006): Drafted schema & validator plan and prioritized ingestion work for StudyData under `Docs/StudyData/Dec24`.
+   - Created phase-1 plan to author `scripts/study-schema.json` and a validation script to detect normalization needs; next step is converter to normalize chapter/question wrappers and produce `data/study/` and `data/index/manifest-study-latest.json`. (Author: Automated assistant)
+ - 2025-10-28 — v1.23 — Archived Paper_2 raw and converted artifacts into `archive/removed-data-20251028`; updated manifest and added archive provenance files (`README.md`, `metadata.json`). (Author: Automated assistant) [Maintenance/Archive]
