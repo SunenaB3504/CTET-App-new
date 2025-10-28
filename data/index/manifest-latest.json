@@ -10,7 +10,10 @@
       "subject": "Child Development & Pedagogy",
       "language": "English",
       "questionCount": 30,
-      "checksum": "fa61411452bc3cf8f6d0bac4bc76dab4cd623e58bdd95c707702193410b74665"
+      "checksum": "fa61411452bc3cf8f6d0bac4bc76dab4cd623e58bdd95c707702193410b74665",
+      "archived": true,
+      "archivePath": "archive/removed-data-20251028/CDP-Dec24-Extracted-Verified.json",
+      "archivedAt": "2025-10-28T12:00:00.000Z"
     },
     {
       "input": "Docs\\jsonData\\Paper2-Dec24\\ENG-Dec24-Extracted-Verified.json",
@@ -21,7 +24,10 @@
       "subject": "English",
       "language": "English",
       "questionCount": 30,
-      "checksum": "0f2ccfd8a069169204544a1a48646e0be71125bc0a5eda689e5aee281a5c14d7"
+      "checksum": "0f2ccfd8a069169204544a1a48646e0be71125bc0a5eda689e5aee281a5c14d7",
+      "archived": true,
+      "archivePath": "archive/removed-data-20251028/ENG-Dec24-Extracted-Verified.json",
+      "archivedAt": "2025-10-28T12:00:00.000Z"
     },
     {
       "input": "Docs\\jsonData\\Paper2-Dec24\\Hindi-Dec24-Extracted-Verified.json",
@@ -32,7 +38,10 @@
       "subject": "Hindi",
       "language": "Hindi",
       "questionCount": 30,
-      "checksum": "81aa5dac32baabc35c43e2cde33cdffffd8d9f99249dfed7369338c51900101b"
+      "checksum": "81aa5dac32baabc35c43e2cde33cdffffd8d9f99249dfed7369338c51900101b",
+      "archived": true,
+      "archivePath": "archive/removed-data-20251028/Hindi-Dec24-Extracted-Verified.json",
+      "archivedAt": "2025-10-28T12:00:00.000Z"
     },
     {
       "input": "Docs\\jsonData\\Paper2-Dec24\\Maths-Dec24-Extracted-Verified.json",
@@ -43,7 +52,10 @@
       "subject": "Mathematics",
       "language": "English",
       "questionCount": 60,
-      "checksum": "74b0a38019c67a86cf0260c551844c21961a88040d644546bd74467540564fe4"
+      "checksum": "74b0a38019c67a86cf0260c551844c21961a88040d644546bd74467540564fe4",
+      "archived": true,
+      "archivePath": "archive/removed-data-20251028/Maths-Dec24-Extracted-Verified.json",
+      "archivedAt": "2025-10-28T12:00:00.000Z"
     },
     {
       "input": "Docs\\jsonData\\Paper2-Dec24\\SST-Dec24-Extracted-Verified.json",
@@ -54,8 +66,61 @@
       "subject": "Social Studies",
       "language": "English",
       "questionCount": 60,
-      "checksum": "24f60c4db8f7013674dceceb4b224d0f485e21f6e14e860ecfcf2b649cf18446"
+      "checksum": "24f60c4db8f7013674dceceb4b224d0f485e21f6e14e860ecfcf2b649cf18446",
+      "archived": true,
+      "archivePath": "archive/removed-data-20251028/SST-Dec24-Extracted-Verified.json",
+      "archivedAt": "2025-10-28T12:00:00.000Z"
     }
   ],
-  "questionIndex": {}
+  "questionIndex": {},
+  "archives": [
+    {
+      "archivePath": "archive/removed-data-20251028",
+      "archivedAt": "2025-10-28T12:00:00.000Z",
+      "files": [
+        {
+          "name": "CDP-Dec24-Extracted-Verified.json",
+          "archivePath": "archive/removed-data-20251028/CDP-Dec24-Extracted-Verified.json",
+          "size": 20708,
+          "sha256": "07A369E5DA9A7FE6BE10D4D4B1C1282F5C62AEBD4A5236D2773ED23C293BCBC4",
+          "originalInput": "Docs\\jsonData\\Paper2-Dec24\\CDP-Dec24-Extracted-Verified.json"
+        },
+        {
+          "name": "ENG-Dec24-Extracted-Verified.json",
+          "archivePath": "archive/removed-data-20251028/ENG-Dec24-Extracted-Verified.json",
+          "size": 19437,
+          "sha256": "0F7AA6FCA4B4DC0CBCD4272DC417D1BDD9D26F667E81A02B37E1D2711393B199",
+          "originalInput": "Docs\\jsonData\\Paper2-Dec24\\ENG-Dec24-Extracted-Verified.json"
+        },
+        {
+          "name": "Hindi-Dec24-Extracted-Verified.json",
+          "archivePath": "archive/removed-data-20251028/Hindi-Dec24-Extracted-Verified.json",
+          "size": 57854,
+          "sha256": "C560D844CF806F68D6AB6612034B6F4B3982A446EFDD09E14DE2B9543D97CFD4",
+          "originalInput": "Docs\\jsonData\\Paper2-Dec24\\Hindi-Dec24-Extracted-Verified.json"
+        },
+        {
+          "name": "Maths-Dec24-Extracted-67-71-75-76-79-89.json",
+          "archivePath": "archive/removed-data-20251028/Maths-Dec24-Extracted-67-71-75-76-79-89.json",
+          "size": 10456,
+          "sha256": "9BB74B0EDFC1DF9E471226BC53F048F4BE05EFDEADB1B97D3AA8F8BF93E700D1",
+          "originalInput": null
+        },
+        {
+          "name": "Maths-Dec24-Extracted-Verified.json",
+          "archivePath": "archive/removed-data-20251028/Maths-Dec24-Extracted-Verified.json",
+          "size": 35397,
+          "sha256": "13664C6F04CE8FF256C1DB6FD7D54E23512EFD83D9A9A1336284D78DFF931463",
+          "originalInput": "Docs\\jsonData\\Paper2-Dec24\\Maths-Dec24-Extracted-Verified.json"
+        },
+        {
+          "name": "SST-Dec24-Extracted-Verified.json",
+          "archivePath": "archive/removed-data-20251028/SST-Dec24-Extracted-Verified.json",
+          "size": 39465,
+          "sha256": "A72287B66B811D4BA8D3D78C6AFCD2555DC6179DF3D22C45A131A7F1C9F07D5D",
+          "originalInput": "Docs\\jsonData\\Paper2-Dec24\\SST-Dec24-Extracted-Verified.json"
+        }
+      ]
+    }
+  ]
 }
