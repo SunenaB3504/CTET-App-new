@@ -1,6 +1,6 @@
 # CTET Prep App — Single Source of Truth
 
-Version: 1.23
+Version: 1.24
 LastUpdated: 2025-10-28
 
 Purpose
@@ -107,6 +107,10 @@ JSON fields (required)
 - `subject` (string)
 - `language` (string)
 - `questions[]` where each question has: `id`, `question`, `options[]`, `correct_answer`, `explanation`, `topic`, `difficulty`
+
+Canonical data model & storage plan
+----------------------------------
+We maintain a focused canonical data model and storage plan in `Docs/data-model.md`. That document describes the canonical `data/` layout, manifest shapes, checksum/versioning policy, ingest/validation flow, and chunking rules for question and study artifacts. Use it as the authoritative reference when adding new ingestion scripts, updating manifests, or changing the on-disk layout.
 
 Feature list and status
 -----------------------
@@ -494,3 +498,4 @@ This document is authoritative. All designers, developers, and QA engineers must
  - 2025-10-27 — v1.22 — Study materials ingestion plan (F-006): Drafted schema & validator plan and prioritized ingestion work for StudyData under `Docs/StudyData/Dec24`.
    - Created phase-1 plan to author `scripts/study-schema.json` and a validation script to detect normalization needs; next step is converter to normalize chapter/question wrappers and produce `data/study/` and `data/index/manifest-study-latest.json`. (Author: Automated assistant)
  - 2025-10-28 — v1.23 — Archived Paper_2 raw and converted artifacts into `archive/removed-data-20251028`; updated manifest and added archive provenance files (`README.md`, `metadata.json`). (Author: Automated assistant) [Maintenance/Archive]
+ - 2025-10-28 — v1.24 — Added canonical data model & storage plan (`Docs/data-model.md`): manifests, chunked layout, checksum/versioning policy, ingest flow, and CI validation guidance. This document is the authoritative reference for data ingest and manifest generation. (Author: Automated assistant) [Data Model]
