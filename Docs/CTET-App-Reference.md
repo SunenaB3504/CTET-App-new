@@ -187,6 +187,26 @@ Minimal manifest-questions example:
 ```json
 {
   "generatedAt": "2025-10-28T12:00:00Z",
+
+Manifest generation
+-------------------
+We added a small helper script to generate the canonical questions manifest and the `questionIndex` mapping from existing `data/` artifacts. It is useful after running ingestion/conversion so the index reflects current files.
+
+Script: `scripts/generate-manifest.js`
+
+Usage:
+
+```powershell
+node .\scripts\generate-manifest.js
+```
+
+What it does:
+- Scans `data/converted` and `data/questions` for JSON chunk files.
+- Computes SHA256 and question counts per file.
+- Builds `data/index/manifest-questions-<timestamp>.json` with `files[]` and `questionIndex` (mapping questionId -> file metadata).
+- Updates `data/index/manifest-latest.json` to reference the newly-generated questions manifest under `manifests.questions`.
+
+Note: if your `data/` folders are empty (for example after archiving old converted files), the generated manifest may be empty. Run the converter/split step first to populate `data/questions/` or `data/converted/` before generating the manifest.
   "files": [
     { "path":"data/questions/paper-2/hindi/math/chunk-0001.json", "sha256":"ABC...", "count": 250 }
   ],
